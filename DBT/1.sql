@@ -1,0 +1,1 @@
+select namefirst,concat(substr(namefirst,2,1),substr(namefirst,-2,1)) R1 from student;
