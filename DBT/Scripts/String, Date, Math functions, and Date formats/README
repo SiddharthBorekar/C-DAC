@@ -1,0 +1,147 @@
+# 📘 SQL Practice – String, Date & Math Functions
+
+This repository contains **SQL queries based on String Functions, Date Functions, Math Functions, and Date Formats**.
+The queries are written using multiple relations from a **Student Management Database**.
+
+---
+
+## 📂 Database Relations Used
+
+The following tables are used to solve the SQL queries:
+
+* `student`
+* `faculty`
+* `course`
+* `modules`
+* `course_modules`
+* `course_batches`
+* `batch_students`
+* `student_phone`
+* `faculty_phone`
+* `student_address`
+* `faculty_address`
+* `student_qualifications`
+* `faculty_qualifications`
+* `student_cards`
+* `student_order`
+
+---
+
+# 🔤 String Functions
+
+String functions are used to manipulate and analyze text values stored in database fields.
+
+### Common Functions Used
+
+* `CONCAT()` – Join multiple strings
+* `UPPER()` – Convert string to uppercase
+* `LOWER()` – Convert string to lowercase
+* `LENGTH()` – Find string length
+* `REPLACE()` – Replace characters in a string
+* `SUBSTRING()` – Extract part of a string
+
+### Example
+
+```sql
+SELECT nameFirst, UPPER(nameFirst)
+FROM student;
+```
+
+---
+
+# 📅 Date Functions
+
+Date functions help work with **dates, months, years, and weekdays**.
+
+### Common Functions Used
+
+* `DAY()` – Extract day
+* `MONTH()` – Extract month
+* `YEAR()` – Extract year
+* `DAYNAME()` – Get weekday name
+* `CURDATE()` – Get current date
+* `DATEDIFF()` – Difference between dates
+
+### Example
+
+```sql
+SELECT nameFirst, DAYNAME(DOB)
+FROM student;
+```
+
+---
+
+# 🧮 Math Functions
+
+Math functions perform **numeric calculations**.
+
+### Common Functions Used
+
+* `ROUND()` – Round numbers
+* `CEIL()` – Round up
+* `FLOOR()` – Round down
+* `RAND()` – Generate random numbers
+* `ABS()` – Absolute value
+* `POWER()` – Raise to power
+
+### Example
+
+```sql
+SELECT RAND()*100;
+```
+
+---
+
+# 🗓 Date Formatting
+
+Date formatting converts date values into **custom readable formats**.
+
+### Function Used
+
+`DATE_FORMAT(date, format)`
+
+### Common Format Specifiers
+
+| Format | Meaning      |
+| ------ | ------------ |
+| `%d`   | Day          |
+| `%M`   | Month name   |
+| `%m`   | Month number |
+| `%Y`   | Year         |
+| `%W`   | Weekday name |
+
+### Example
+
+```sql
+SELECT DOB,
+DATE_FORMAT(DOB,'%d %M %Y')
+FROM student;
+```
+
+Output Example:
+
+```
+12 June 1984
+```
+
+---
+
+# 🎯 Purpose of This Repository
+
+This project helps in practicing:
+
+* SQL Query Writing
+* Database Functions
+* Data Formatting
+* Query Optimization
+* Database Design Understanding
+
+---
+
+# 🧑‍💻 Author
+
+**Siddharth Borekar**
+
+Learning SQL, C++, and Database concepts while building practical projects.
+
+---
