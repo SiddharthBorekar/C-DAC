@@ -1,75 +1,41 @@
-# include<iostream>
+// 1. Write a program to generate a following structure:
+//           @@@@@
+//           @@@@@
+//           @@@@@
+//           @@@@@
+//           @@@@@
+
+# include <iostream>
 using namespace std;
-// QUE1
-// int main(){
-//     for(int i=1;i<=4;i++){               
-//         for (int j=1;j<=4;j++){
-//         cout<<" * ";
-//     }
-//      cout<<endl;
-//     }
-//     return 0;
-// }
 
-//QUE2
 // int main(){
-//     int i,j;
-//     for(i=0;i<=3;i++){
-//         for(j=0;j<=i+1;j++){
-//             cout<<" * ";
-//         }
-//         cout<<endl;
-//     }
-//     return 0;
-// }
-
-// QUE3
-// int main(){
-//     int i ,j;
-//     for(i=0;i<=3;i++){
-//         for(j=0;j<=i;j++){
-//             cout<<""<<i+1;
-//         }
-//         cout<<endl;
-//     }
-// return 0;
-// }
-
-//QUE4
-// int main(){
-//     for(int i=0;i<=3;i++){
-//         for(int j=0;j<=i;j++){
-//             cout<<" "<<j+1;
-//         }
-//         cout<<endl;
-//     }
-//     return 0;
-// }
-
-//QUE5
-// int main(){
-//     int n=4 ,num=1;
+//     int n=4;
 //     for(int i=0;i<=n;i++){
 //         for(int j=0;j<=n;j++){
-//             cout<<" ";
-//             for(int j=0;j<n-1;j++){
-//                 cout<<i+1;
-//             }
-//             cout<<endl;
+//             cout<<"@ ";
 //         }
+//         cout<<endl;
 //     }
 //     return 0;
 // }
 
+//Q.2  Write a program to generate a following #`s trangle
+//      #####
+//       ####
+//        ###
+//         ##
+//          #
 
-//QUE6
 int main(){
     int n=4;
-    for(int i=0;i<4;i++){
-        for(int j=0;j<4;j++){
-            cout<<" "<<i+1;
+    for(int i=5;i>=1;i--){
+        for(int j=5;j>=i;j--){
+            cout<<" ";
         }
-        cout<<endl;
+        for(int j=i;j>=0;j--){
+            cout<<"#";
+        }
+        cout<<"\n";
     }
     return 0;
 }
