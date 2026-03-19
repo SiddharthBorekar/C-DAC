@@ -1,8 +1,6 @@
--- 1.	Write a basic PL/SQL programme to create two variables and store some default value and print them.4
+drop procedure if exists checkusser ;
 delimiter $
-create procedure pro1(IN x int, IN y int)
+create procedure p5(IN ID int,IN curr_date date,curr_time datetime,IN massage varchar(20))
 begin
-	select * from x1;
-end $
+	
 delimiter ;
-    
