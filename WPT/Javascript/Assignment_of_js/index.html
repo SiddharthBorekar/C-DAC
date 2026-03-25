@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Multi img task</title>
+</head>
+<body>
+
+    <img id="d1" src="./imges/select.png" alt="Select items" style="width: 300px;height: 300px;"><br><br>
+
+    <button type="button" onclick="changeImage0()">Reset button</button>
+    <button type="button" onclick="changeImage()">Samosa</button>
+    <button type="button" onclick="changeImage1()">Kachori</button>
+    <button type="button" onclick="changeImage2()">Idli</button>
+    <button type="button" onclick="changeImage3()">Tari Poha</button>
+    <button type="button" onclick="changeImage4()">Upma</button>
+
+
+    <script>
+      function changeImage(){
+       document.getElementById("d1").src="./imges/somosa.jpg";
+      }
+      function changeImage1(){
+       document.getElementById("d1").src="./imges/kachori.jpg";
+      }
+      function changeImage2(){
+       document.getElementById("d1").src="./imges/Idli.jpg";
+      }
+      function changeImage3(){
+       document.getElementById("d1").src="./imges/Tari Poha.jpg";
+      }
+      function changeImage4(){
+       document.getElementById("d1").src="./imges/Upma.jpg";
+      }
+      function changeImage0(){
+       document.getElementById("d1").src="./imges/select.png";
+      }
+
+    </script>
+</body>
+</html>
