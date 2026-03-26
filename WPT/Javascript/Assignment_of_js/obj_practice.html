@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let std = [
+    { id: 11, name: "Neha", post:"Designer", salary:48000, gender:"Female", age:23, city:"Pune", department:"Design"},
+    { id: 12, name: "Amit", post:"Manager", salary:70000, gender:"Male", age:35, city:"Mumbai", department:"Sales"},
+    { id: 13, name: "Priya", post:"HR", salary:42000, gender:"Female", age:29, city:"Nashik", department:"HR"},
+    { id: 14, name: "Rohit", post:"Developer", salary:62000, gender:"Male", age:61, city:"Pune", department:"IT"},
+    { id: 15, name: "Kiran", post:"Analyst", salary:50000, gender:"Male", age:27, city:"Nagpur", department:"Finance"},
+    { id: 16, name: "Sneha", post:"Tester", salary:38000, gender:"Female", age:60, city:"Amravati", department:"IT"},
+    { id: 17, name: "Vikas", post:"Engineer", salary:57000, gender:"Male", age:31, city:"Wardha", department:"Mechanical"},
+    { id: 18, name: "Pooja", post:"Teacher", salary:32000, gender:"Female", age:28, city:"Nagpur", department:"Education"},
+    { id: 19, name: "Ankit", post:"Clerk", salary:28000, gender:"Male", age:22, city:"Pune", department:"Accounts"},
+    { id: 20, name: "Meena", post:"Nurse", salary:35000, gender:"Female", age:30, city:"Mumbai", department:"Medical"}
+        ];
+
+        //1st
+        for(let i=0;i<std.length;i++){
+            document.write(`Id:${std[i].id} Name:${std[i].name} Salary:${std[i].salary} Post:${std[i].post} gender:${std[i].gender} age:${std[i].age} city:${std[i].city} department:${std[i].department}<br>`);
+        }
+
+        //2nd
+        document.write("<hr>")
+        for(let i=0;i<std.length;i++){
+            if(std[i].gender == "Female"){
+                 document.write(`Id:${std[i].id} Name:${std[i].name} Salary:${std[i].salary} Post:${std[i].post} gender:${std[i].gender} age:${std[i].age} city:${std[i].city} department:${std[i].department}<br>`);
+            }
+        }
+        //3rd
+        document.write("<hr>")
+        for(let i=0;i<std.length;i++){
+            if(std[i].department == "HR"){
+                document.write(`Id:${std[i].id} Name:${std[i].name} Salary:${std[i].salary} Post:${std[i].post} gender:${std[i].gender} age:${std[i].age} city:${std[i].city} department:${std[i].department}<br>`);
+            }
+        }
+        //4th
+        document.write("<hr>")
+        for(let i=0;i<std.length;i++){
+            if(std[i].salary > 30000 && std[i].salary > 60000){
+                document.write(`Id:${std[i].id} Name:${std[i].name} Salary:${std[i].salary} Post:${std[i].post} gender:${std[i].gender} age:${std[i].age} city:${std[i].city} department:${std[i].department}<br>`);
+            }
+        }
+        document.write("<hr>")
+        for(let i=0;i<std.length;i++){
+            if(std[i].age > 55){
+                document.write(`Id:${std[i].id} Name:${std[i].name} Salary:${std[i].salary} Post:${std[i].post} gender:${std[i].gender} age:${std[i].age} city:${std[i].city} department:${std[i].department}<br>`);
+            }
+        }
+        document.write("<hr>")
+        for(let i=0;i<std.length;i++)
+        {
+            for(let j=0;std.length;j++){
+                if(std[i].department === std[j].department)
+                {
+                    document.writeln(`Id:${std[i].id} Name:${std[i].name} Salary:${std[i].salary} Post:${std[i].post} gender:${std[i].gender} age:${std[i].age} city:${std[i].city} department:${std[i].department}<br>`);
+                }
+            }
+        }
+        
+        // document.write(`City:${emp.address.city}, State:${emp.address.state} Pin:${emp.address.pin}  <br>`);
+    </script>
+</body>
+</html>

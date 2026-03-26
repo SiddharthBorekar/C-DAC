@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let city = [];"sidd","Aditya","Om","sagar","dev","hritik"
+        // city[0] = "Siddharth";
+        // console.log(city);
+
+        // let my_city = city[3];
+        // console.log(my_city);
+
+        //push = To insert value at last index of an array
+        city.push("mummy","papa")
+        console.log(city);
+
+        //pop = To remove value of last index of an array
+        city.pop()
+        console.log(city);
+
+        //Unshift = It insert values at starting of an array
+        city.unshift("Borekar")
+        console.log(city);
+
+        //shift = It remove values at starting of an array
+        city.shift();
+        console.log(city);
+
+        //splice = it allows us to insert and remove values from middle index of an array.
+        city.splice(3,0, "Sangali", "Kolhapur"); // insert value
+        console.log(city);
+        city.splice(2, 3); //1st parameter says starting index and 2nd says number of parameters
+        console.log(city);  // remove values
+        city.splice(2, 1, "Jalgaon", "Dhule", "Nandubar");  ////1st parameter says starting index and 2nd says number of parameters and 2nd says replace number of parameters
+        console.log(city);
+
+        //To string = it converts array datatype into string datatypes.
+        let num = [1,2,3,4,5,6,7,8,9];
+        let str1 = num.toString();
+        console.log(num);
+        console.log(typeof(num)); //str1
+
+        //Join(Seprator) = it convert array datatype into string data type,having one parameter to seprate string values.
+        let str2 = city.join();
+        console.log(str2);
+        let str3 = city.join("*");
+        console.log(str3);
+        let str4 = city.join("");
+        console.log(str4);
+
+
+        // display array values using for loop
+        for (let i = 0; i < city.length; i++) {
+            document.write(city[i] + ",");         //+ is for concat
+        }
+        document.write("<br>");
+        // for of : it return array values;
+        for (let c of city) {
+            document.write(c + ",");                //+ is for concat
+        }
+        document.write("<br>");
+        // for in : it return array index;
+        for (let c in city) {
+            document.write(c + ",");                //+ is for concat
+        }
+    </script>
+</body>
+</html>
