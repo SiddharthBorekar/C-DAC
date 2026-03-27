@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital clock</title>
+    <style>
+        .container{
+            width: 100vw;
+            height: 100vh;
+            background-color: beige;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #circle{
+            height: 300px;
+            width: 300px;
+            border-radius: 50%;
+            background-color: rgb(210, 238, 238);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        } 
+        #AMPM{
+            display:flex ;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="circle">
+            <span id="hr"></span>:
+            <span id="min"></span>:
+            <span id="sec"></span>
+            <br>
+            <!-- <span id="AMPM">PM</span>   -->
+        </div>
+    </div>
+
+    <script>
+        const myClok = ()=>{
+            let dObj=new Date();
+            // document.getElementById("circle").innerHTML = dObj.toLocaleTimeString();
+            document.getElementById("hr").innerHTML = dObj.getHours();
+            document.getElementById("min").innerHTML = dObj.getMinutes();
+            document.getElementById("sec").innerHTML = dObj.getSeconds();
+            document.getElementById("sec").innerHTML = dObj.getSeconds();
+
+        }
+        setInterval(myClok,1000);
+    </script>
+</body>
+</html>

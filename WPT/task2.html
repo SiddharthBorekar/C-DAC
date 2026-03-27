@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genrate table</title>
+    <style>
+        .container{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            height: 100vh;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <button id="d1" onclick="tdata()">Magic</button>
+    <table border="" width="50%">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Post</th>
+                <th>Salary</th>
+            </tr>
+        </thead>
+        <tbody id="tb">
+           
+        </tbody>
+    </table>
+    </div>
+
+    <script>
+        let emp = [
+    {id:1,name:"Abhishek",post:"Manager",salary:"950000"},
+    {id:2,name:"Payal",post:"HR",salary:"950000"},
+    {id:3,name:"Swayam",post:"TL",salary:"950000"},
+    {id:4,name:"Swati",post:"Fullstack Developer",salary:"950000"},
+    {id:5,name:"Tanmay",post:"React Developer",salary:"950000"}
+  ]
+
+  const tdata = ()=>{
+    let tbody = document.getElementById("tb");
+    for(let i=0;i<emp.length;i++){
+      let newRow = document.createElement("tr");
+      newRow.innerHTML = `<td>${emp[i].id}</td><td>${emp[i].name}</td><td>${emp[i].post}</td><td>${emp[i].salary}</td>`;
+      tbody.appendChild(newRow);
+    }
+    // let x = document.getElementById("d1").disabled = 1;
+  }
+    </script>
+</body>
+</html>
