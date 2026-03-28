@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button type="button" onclick="generateTable()">generate Table</button>
+    <table border="" width="50%">
+        <thead>
+            <tr>
+                <th>Id</th><th>Name</th><th>Post</th><th>Salary</th>
+            </tr>
+        </thead>
+        <tbody id="tb">
+           
+        </tbody>
+    </table>
+  <script>
+  let emp = [
+    {id:1,name:"Abhishek",post:"Manager",salary:"950000"},
+    {id:2,name:"Payal",post:"HR",salary:"950000"},
+    {id:3,name:"Swayam",post:"TL",salary:"950000"},
+    {id:4,name:"Swati",post:"Fullstack Developer",salary:"950000"},
+    {id:5,name:"Tanmay",post:"React Developer",salary:"950000"}
+  ]
+
+  const generateTable = ()=>{
+    let tbody = document.getElementById("tb");
+    for(let i=0;i<emp.length;i++){
+      let newRow = document.createElement("tr");
+      newRow.innerHTML = `<td>${emp[i].id}</td><td>${emp[i].ename}</td><td>${emp[i].epost}</td><td>${emp[i].salary}</td>`;
+      tbody.appendChild(newRow);
+    }
+  }
+// BOM object 
+// window.alert("hello everyone");
+
+  </script>
+</body>
+</html>

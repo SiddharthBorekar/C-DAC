@@ -1,0 +1,127 @@
+{
+  "employees": [
+    {
+      "id": "1",
+      "name": "Alice Johnson",
+      "role": "Senior Developer",
+      "salary": 95000,
+      "department": "Engineering"
+    },
+    {
+      "id": "2",
+      "name": "Bob Smith",
+      "role": "Data Analyst",
+      "salary": 72000,
+      "department": "Analytics"
+    },
+    {
+      "id": "3",
+      "name": "Charlie Davis",
+      "role": "UX Designer",
+      "salary": 81000,
+      "department": "Design"
+    },
+    {
+      "id": "4",
+      "name": "Diana Prince",
+      "role": "Product Manager",
+      "salary": 110000,
+      "department": "Product"
+    },
+    {
+      "id": "5",
+      "name": "Ethan Hunt",
+      "role": "QA Engineer",
+      "salary": 68000,
+      "department": "Engineering"
+    },
+    {
+      "id": "6",
+      "name": "Fiona Gallagher",
+      "role": "HR Specialist",
+      "salary": 62000,
+      "department": "People Ops"
+    },
+    {
+      "id": "7",
+      "name": "George Miller",
+      "role": "DevOps Engineer",
+      "salary": 105000,
+      "department": "Infrastructure"
+    },
+    {
+      "name": "Siddharth",
+      "role": "SDE",
+      "salary": "60000",
+      "department": "IT",
+      "id": "0nXoHGr2t44"
+    },
+    {
+      "Id": "8",
+      "name": "qaz",
+      "role": "wertgfds",
+      "salary": "014520",
+      "department": "IT",
+      "id": "3zVZf-KuVDQ"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "Sagar Patil",
+      "age": 22,
+      "email": "sagar.patil@example.com",
+      "city": "Pune"
+    },
+    {
+      "id": "2",
+      "name": "Riya Sharma",
+      "age": 24,
+      "email": "riya.sharma@example.com",
+      "city": "Mumbai"
+    },
+    {
+      "id": "3",
+      "name": "Aman Verma",
+      "age": 26,
+      "email": "aman.verma@example.com",
+      "city": "Delhi"
+    },
+    {
+      "id": "4",
+      "name": "Neha Kapoor",
+      "age": 23,
+      "email": "neha.kapoor@example.com",
+      "city": "Bangalore"
+    },
+    {
+      "id": "5",
+      "name": "Rahul Mehta",
+      "age": 28,
+      "email": "rahul.mehta@example.com",
+      "city": "Ahmedabad"
+    },
+    {
+      "id": "6",
+      "name": "Priya Singh",
+      "age": 25,
+      "email": "priya.singh@example.com",
+      "city": "Jaipur"
+    },
+    {
+      "id": "7",
+      "name": "Karan Malhotra",
+      "age": 27,
+      "email": "karan.malhotra@example.com",
+      "city": "Chandigarh"
+    },
+    {
+      "id": "8",
+      "name": "Anjali Desai",
+      "age": 21,
+      "email": "anjali.desai@example.com",
+      "city": "Surat"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
