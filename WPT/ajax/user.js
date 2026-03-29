@@ -16,7 +16,6 @@ function getData() {
     xmlhttp.open("GET", "http://localhost:8888/users");
     xmlhttp.send();
 }
-
 // delete data function 
 function deleteRecod() {
     let id = document.getElementById("uid").value;

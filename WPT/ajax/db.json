@@ -109,11 +109,10 @@
       "city": "Jaipur"
     },
     {
-      "id": "7",
-      "name": "Karan Malhotra",
-      "age": 27,
-      "email": "karan.malhotra@example.com",
-      "city": "Chandigarh"
+      "ename": "Siddhant",
+      "epost": "23",
+      "salary": "Wardha",
+      "id": "zeUMVTTJDQE"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
