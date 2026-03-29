@@ -1,4 +1,8 @@
+require("dotenv").config()
 const http=require('http')
+
+let host=process.env.HOST;
+let port=process.env.PORT;
 
 let server=http.createServer((req,res)=>{
     if(req.url=="/"){
@@ -13,6 +17,11 @@ let server=http.createServer((req,res)=>{
         res.end();
     }
 });
-server.listen(9999,()=>{
-    console.log("server started");
+// server.listen(9999,()=>{
+//     console.log("server started");
+// })
+
+
+server.listen(port,()=>{
+    console.log(`server get started om ${host}:${port}`);
 })
