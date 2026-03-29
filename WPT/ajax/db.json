@@ -114,13 +114,6 @@
       "age": 27,
       "email": "karan.malhotra@example.com",
       "city": "Chandigarh"
-    },
-    {
-      "id": "8",
-      "name": "Anjali Desai",
-      "age": 21,
-      "email": "anjali.desai@example.com",
-      "city": "Surat"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

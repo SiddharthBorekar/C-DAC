@@ -71,11 +71,10 @@
 // }
 
 
-
 //take 2 var  a and b  and print their sum.
 
 import java.util.*;
-public class main {
+public class Practice {
    public static void main(String[] args) {
       Scanner sc = new Scanner(System.in);
       
@@ -84,3 +83,5 @@ public class main {
       System.out.println(a+b);
    }
 }
+
+
