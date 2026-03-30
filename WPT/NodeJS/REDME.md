@@ -30,7 +30,7 @@ util:access utility function
 ▫️it is a command line tool that installs,updates or unstalls Node.js packages in your applaction.
 
 ✅Third party modules
-▫️To use 3rd party modules 
+▫️To use 3rd party modules
 
 ✅ Blocking and Non-Blocking
 ▫️Blocking is when the execution of addition javascript in the Nodejs.process must wait until a non-javascript operation completeds.This happens beacuse the event loop is unable to continiue running javascript while a blocking operation is occurring.
@@ -41,3 +41,28 @@ there are 2 parameters(error,result);
 
 ✅ Events
 ▫️Event action on a computer is an event.like when a connection is madde or a file
+
+✅ NPM i express
+▫️how to create server using express
+
+
+
+✅ Serve static resources using Express.js
+▫️it is easy to srever static files using bult-in middleware in Express.js called express.static.
+▫️The express static middleware is respnsable for serving the static assets of an express.js application.
+▫️The express.static()method specifics the folder from which to serve all staic resource.
+//app.use(express.static(__dirname + 'public'));
+
+how to create webserver
+s
+1. cfreate directory for proj and enter into directory by writing command "cd directoryname"
+2.  create package.json file 
+    npm init or init -y
+3. Install expressjs
+    npm i express
+4. install .env
+    npm i .env
+    ▫️node_module : all external dependency and libary will install here
+    ▫️package.json : all external dependency or libaryentry will found here.
+    ▫️packagelock.json: all dependency details avalible here.
+5. create server by using expressjs with multiple roting path.
