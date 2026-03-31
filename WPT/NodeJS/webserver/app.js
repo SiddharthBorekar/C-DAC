@@ -4,7 +4,6 @@ const app = express();
 const path = require("path")
 const hbs = require('hbs')
 
-
 let host = process.env.HOST;
 let port = process.env.PORT;
 let staticfilepath = path.join(__dirname,"/Publc");
