@@ -8,7 +8,7 @@ const ImageToggleComp = () =>{
             <div>
                 <img src={staticdata.Yourname} alt='Yourname' width="150px" height="150px"/>
                 <br></br>
-                <button>ToggleImage</button>
+                <button type='button' id=''>ToggleImage</button>
             </div>
             <hr></hr>
         </div>

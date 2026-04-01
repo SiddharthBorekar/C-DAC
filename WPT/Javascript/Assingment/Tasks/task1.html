@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task1</title>
+    <style>
+        .container{
+            height:100vh;
+            width:100vw;
+            background-color: orange;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .box{
+            background-color: blue;
+            border-radius:5px;
+            border: 3px solid black;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            width: 250px;
+        }
+
+    </style>
+</head>
+<body>
+        <div class="container">
+            <div class="box">
+                <label for="">Enter First number</label>
+                <br>
+                <input type="text" id="num1">
+                <br>
+                <label for="">Enter Second number</label>
+                <br>
+                <input type="text" id="num2">
+                <br>
+                <button type="button" onclick=addition()>Add</button>
+                <br>
+                <span>Result  <span id="result">0</span></span>
+            </div>
+        </div>
+        <script>
+            
+            let add = function caculate(){
+            let n1 = document.getElementById("num1").value
+            let n2 = document.getElementById("num2").value
+            return parseInt(n1)+parseInt(n2)
+            }
+
+            function addition (){
+                document.getElementById("result").innerHTML = add();
+            }
+            
+
+        </script>
+</body>
+</html>
