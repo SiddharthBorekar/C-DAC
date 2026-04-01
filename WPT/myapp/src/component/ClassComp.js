@@ -9,7 +9,7 @@ class ClassComp extends Component{
             <p>My name is : <strong>{this.props.myname}</strong>, I am <strong>{this.props.post}</strong> </p>
             <hr></hr>
             </div>
-            
+                
         )
     }
 }

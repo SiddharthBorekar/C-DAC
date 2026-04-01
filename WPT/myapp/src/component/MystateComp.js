@@ -12,18 +12,20 @@ class MystateComp extends Component{
     greeting(){
         window.alert("Good morning Everyone");
     }
+
     Updatestate(){
         this.setState((prevState)=>({name:"Siddhant Borekar",salary:this.state.salary+5000}));  
         this.setState({name:"Siddhant Borekar",salary:this.state.salary+5000});
     }
 
     render(){
-        return (    
+        return (
             <div>
                 MystateComp
                 <p>My name: {this.state.name} and salary <strong>{this.state.salary}</strong></p>
                 <button type='button' onClick={()=>this.greeting()}>Magic</button>
-                <button type='button' onClick={()=>this.Updatestate()}>Change state</button>   
+                <button type='button' onClick={()=>this.Updatestate()}>Change state</button>
+                 <hr></hr>
             </div>
             
                 )

@@ -7,7 +7,6 @@ const FuncComp = (props) =>{
             <hr></hr>
         </div>
    )
-        
 }
 
 export default FuncComp;

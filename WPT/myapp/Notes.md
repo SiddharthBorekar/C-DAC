@@ -47,6 +47,7 @@ software Prerequsit
 
 Task 1: create one function compo with name MyDetailscomp and pass props fname,lname,gener,city,country and display its output.
 Task 2: create one class component with name FriendDetailsComp and pass props fname,lname,gener,city,country and display its output.
+TASK 3: CREATE A COUNTER CLASS TO INCREMENT DECREMENT AND RESET COUNTER |  BY DEFAULT -> 0;
 
 ✅ What is State
 1. state is used to handle esential data in class component.
@@ -62,4 +63,31 @@ MystateComp.js
 ✅Set state
 ▫️setsate method allow us to manuplate state data inside class components. This is inbuld method provide to us by react libery
 
-✅What is Hooks.
+✅Render => display component output i=on browser
+✅Condition Render => Display component view on the basis of condition.
+1. if else => 
+2. Element as variable => 
+3. use of ternary operator => shorthand syntax for if else 
+   syntax: (Condition)? Truepart : falsepart
+4. short-circuit(&&) => If the conditioon is true onlu display componemnt view.
+
+✅ Before React version 16 We where not able to use state in function components In react version 16  Hooks get introduces with the help of     hooks we can use class components features in function components.
+▫️ bY using usestate hooks we can use state in function components.
+1. Hooks only work with function not in with a class
+2. Hooks always use toplevel compoinents.
+3. Hooks can render conditionally.
+
+✅ Hooks Folder
+1. UseStateHookComp.js
+2. UseEffectHookComp.js
+3. ReactHooksComp.js
+
+▫️Usestate() Hook:
+1. It allow us to use state in function components
+2. for using it first we have to import from react library.
+3. usestate hooks gives us 2 values 1.currentState, 2.function to update current
+syntax: 
+
+
+✅What is Virtual DOM
+▫️In react before making changes in real DOM React create Virtual virtual DOM in its memory , where it does all the nessery changes in the virtual DOM. react update that part only which is required. Thats why React is Faster than angular.

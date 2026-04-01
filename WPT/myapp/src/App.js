@@ -1,29 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
-import FuncComp from './component/FuncComp';
-import ClassComp from './component/ClassComp';
-import MystateComp from './component/MystateComp';
+/** @format */
+import "./App.css";
+import FuncComp from "./component/FuncComp";
+import ClassComp from "./component/ClassComp";
+import MystateComp from "./component/MystateComp";
+import MyDetailsComp from "./component/MyDetailsComp";
+import ConditionalRenCom from "./component/ConditionalRenCom";
+import ParentComponent from "./component/ParentComponent";
+import MyimagesCom from "./component/MyimagesCom";
+import UseStateHookComp from "./Hoooks/UseStateHookComp";
+import ToggleImage from "../src/Task/ToggleImage";
+import ImageToggleComp from "./Task/ImageToggleComp";
+
 function App() {
   return (
-    <div className="App">
-      {/* <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header> */}
-    <h1>Hy.. I am Sidd</h1>
-    <FuncComp myname="Sidd" post="SDE1"></FuncComp>
-    <ClassComp myname="Siddhant" post="Student"></ClassComp>
-    <MystateComp></MystateComp>
+    <div>
+      <h1>Hy.. I am Sidd</h1>
+      <FuncComp myname="Sidd" post="SDE1"></FuncComp>
+      <ClassComp myname="Siddhant" post="Student"></ClassComp>
+      <MystateComp></MystateComp>
+      <MyDetailsComp
+        fname="Siddharth"
+        lname="Borekar"
+        gender="Male"
+        city="Wardha"
+        country="India"
+      >
+      </MyDetailsComp>
+      <ConditionalRenCom></ConditionalRenCom>
+      <ParentComponent></ParentComponent>
+      <MyimagesCom></MyimagesCom>
+      <UseStateHookComp></UseStateHookComp>
+      <ToggleImage></ToggleImage>
+      {/* <ImageToggleComp></ImageToggleComp> */}
     </div>
   );
 }
