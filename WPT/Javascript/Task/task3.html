@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Address Form</title>
+    <style>
+    .outer
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid black;
+        border-radius: 10px;
+        width: fit-content;
+        margin: auto;
+        /* height: 100vh; */
+        padding: 50px;
+        margin-top: 250px;
+    }
+    .tem{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid black;
+        padding: 5px;
+        border-radius: 10px;
+
+    }
+    .per{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid black;
+        padding: 5px;
+        border-radius: 10px;
+
+    }
+    
+    /* style="border: 1px solid black; width: 200px; height: 100px; margin: auto; margin-top: 200px; padding: 30px; " */
+    </style>
+</head>
+<body>
+    <div class="outer" >
+        <div class="tem">
+            <label for="temp">Temporary Aaddress</label><br>
+            <input type="text" name="address" id="temp" placeholder="Enter Your Address">
+        </div> 
+
+        <div style=" margin: 10px;">
+            <button type="button" onclick="change()">Same As</button>
+        </div>
+
+        <div class="per">
+            <label for="per">Permanant Aaddress</label><br>
+            <input type="text" name="address" id="per" placeholder="Enter Your Address">
+        </div>   
+    </div>
+
+<Script>
+    function change()
+    {
+        let tem=document.getElementById("temp").value;
+        document.getElementById("per").value = tem;
+    }
+</Script>
+</body>
+</html>

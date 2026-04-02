@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task2</title>
+    <style>
+        .container{
+            height: 100vh;;
+            width:100vw;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+        #circle{
+            height:250px;
+            width: 250px;
+            border-radius:50%;
+            background-color:aqua;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="circle"></div>
+        <div>
+        <button type="button" id="red" onclick=Redcolour()>red</button>
+        <button type="button" id="green" onclick=greencolour()>green</button>
+        <button type="button" id="blue" onclick=bluecolour()>blue</button>
+        <button type="button" id="black" onclick=blackcolour()>black</button>
+        <button type="button" id="yellow" onclick=yellowcolour()>yellow</button>
+        </div>
+    </div>
+        
+    <script>
+
+        function Redcolour(){
+            document.getElementById("circle").style.backgroundColor = "red";
+        };
+        function greencolour(){
+            document.getElementById("circle").style.backgroundColor = "green";
+        };
+        function bluecolour(){
+            document.getElementById("circle").style.backgroundColor = "blue";
+        };
+        function blackcolour(){
+            document.getElementById("circle").style.backgroundColor = "black";
+        };
+        function yellowcolour(){
+            document.getElementById("circle").style.backgroundColor = "yellow";
+        }
+    </script>
+</body>
+</html>

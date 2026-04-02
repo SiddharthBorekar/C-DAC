@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Toggle</title>
+</head>
+
+<style>
+    .image1
+    {
+        display: flex;
+        justify-content: center; 
+        margin-top: 200px;
+    }
+    .btn
+    {
+        display: flex;
+        justify-content: center; 
+        padding: 30px;   
+    }
+    button
+      {
+        background-color: rgb(245, 50, 82);
+        border-radius: 10px;
+        width: 100px;
+        height: 30px;
+      }
+
+/* .outer
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: aqua;
+        height: 100vh;
+    } */
+
+</style>
+<body>
+    <div class="outer">
+        <div class="image1">
+            <img src="../Assets/images/instagrame.jfif" alt="" id="changeImg">
+        </div>
+        <div class="btn" onclick="toggle()"><button>Toggle Image</button></div>
+    </div>
+
+    <script>
+            let allImages = ["../Assets/images/facebook.png", "../Assets/images/whatsapp.png","../Assets/images/instagrame.jfif"];
+            let index = 0;
+
+        function toggle()
+        {
+            index = (index + 1) % allImages.length;
+            document.getElementById("changeImg").src = allImages[index];
+        }
+    </script>
+</body>
+</html>

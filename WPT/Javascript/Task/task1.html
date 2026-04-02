@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Task1</title>
+    <title>caculator</title>
     <style>
         .container{
             height:100vh;
@@ -37,6 +37,9 @@
                 <input type="text" id="num2">
                 <br>
                 <button type="button" onclick=addition()>Add</button>
+                <button type="button" onclick=substraction()>sub</button>
+                <button type="button" onclick=multiply()>multi</button>
+                <button type="button" onclick=divide()>div</button>
                 <br>
                 <span>Result  <span id="result">0</span></span>
             </div>
@@ -48,12 +51,35 @@
             let n2 = document.getElementById("num2").value
             return parseInt(n1)+parseInt(n2)
             }
+            let sub = function caculate(){
+            let n1 = document.getElementById("num1").value
+            let n2 = document.getElementById("num2").value
+            return parseInt(n1)-parseInt(n2)
+            }
+            let mul = function caculate(){
+            let n1 = document.getElementById("num1").value
+            let n2 = document.getElementById("num2").value
+            return parseInt(n1)*parseInt(n2)
+            }
+            let div = function caculate(){
+            let n1 = document.getElementById("num1").value
+            let n2 = document.getElementById("num2").value
+            return parseInt(n1)/parseInt(n2)
+            }
 
             function addition (){
                 document.getElementById("result").innerHTML = add();
             }
+            function substraction (){
+                document.getElementById("result").innerHTML = sub();
+            }
+            function multiply (){
+                document.getElementById("result").innerHTML = mul();
+            }
+            function divide (){
+                document.getElementById("result").innerHTML = div();
+            }
             
-
         </script>
 </body>
 </html>

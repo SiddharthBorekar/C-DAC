@@ -1,0 +1,39 @@
+    <doctype html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <script>
+        let data = prompt("Enter Single Alphabet: ");
+        if (
+            data == "A" || data == "E" || data == "I" || data == "O" || data == "U" || data == "a" || data == "e" || data == "i" || data == "o" || data == "u") {
+            document.writeln(`${data} is Vowel`);
+        } else {
+            document.writeln(`${data} is Consonent`);
+        }
+        document.write("<br>");
+        let num = prompt("Enter Num: ");
+        if (parseInt(num) % 2 == 0) {
+            document.writeln(`${num} is Even`);
+        } else {
+            document.writeln(`${num} is Odd`);
+        }
+
+        document.write("<br>");
+        let validEmail = prompt("Enter Email Id: ");
+
+        if (validEmail.endsWith("@gmail.com")) {
+            document.writeln(`${validEmail} valid Email ID`);
+        } else {
+            document.writeln(`${validEmail} Email ID is Invalid`);
+        }
+        </script>
+    </body>
+    </html>
+    <!-- 
+    Task1: using prompt enter single alphabet and identify it wether is consonent or vovels
+    Task1:using prompt enter number and find it is even or odd number 
+    Task1: using prompt enter user email id, diplay wether is gemail or yahoo or hotmail,outlook  -->

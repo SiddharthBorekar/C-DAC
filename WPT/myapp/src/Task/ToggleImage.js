@@ -1,5 +1,5 @@
 import staticdata from '../shared/Constant/ConstantData';
-import ToggleImage from './ToggleImage'
+// import ToggleImage from './ToggleImage'
 const ImageToggleComp = () =>{
    return (
         <div>
