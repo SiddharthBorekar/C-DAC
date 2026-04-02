@@ -25,7 +25,7 @@
         document.write("<br>");
         let validEmail = prompt("Enter Email Id: ");
 
-        if (validEmail.endsWith("@gmail.com")) {
+        if (validEmail.includes("@gmail.com")) {
             document.writeln(`${validEmail} valid Email ID`);
         } else {
             document.writeln(`${validEmail} Email ID is Invalid`);

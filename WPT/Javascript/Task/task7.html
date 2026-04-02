@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>3 btn imgToggle</title>
+    <style>
+        .container{
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content:center;
+            background-color: burlywood;
+        }
+        #btn{
+            display: flex;
+            justify-content: space-evenly;
+        }
+        #btn button{
+            background-color: slategray;
+        }
+        #image{
+            height:250px;
+            width:250px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <img src="./imges/Idli.jpg" id="image" alt="Idli">
+            <br>
+            <div id="btn">
+            <!-- <button type="button" onclick=functionIdli()>Idli</button> -->
+            <button type="button" onclick=functionkachori()>kachori</button>
+            <button type="button" onclick=functionsomosa()>Somosa</button>
+            <button type="button" onclick=functionupma()>Upma</button>
+            </div>
+        </div>
+    </div>
+    <script>
+        function functionkachori(){
+            document.getElementById("image").src="./imges/kachori.jpg"
+        }
+        function functionsomosa(){
+            document.getElementById("image").src="./imges/somosa.jpg"
+        }
+        function functionupma(){
+            document.getElementById("image").src="./imges/Upma.jpg"
+        }
+
+    </script>
+</body>
+</html>

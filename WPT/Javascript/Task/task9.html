@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>even number</title>
+    <style>
+        .container{
+            height:100vh;
+            width:100vw;
+            background-color: burlywood;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+        }
+        .box{
+            border:2px solid black;
+            height:250px;
+            width:600px;
+            display:flex;
+            flex-direction: column;
+            justify-content:center;
+            align-items:center;
+            gap:10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+        <label for="">Enter a Number</label>
+        <input type="text" id="even">
+        <p id="even_odd">Number is :</p>
+        <p id="square">Number is :</p>
+        <p id="cube">Number is :</p>
+         <button type="button" id="result" onclick="result()">magic</button>
+
+    </div>
+    </div>
+    <script>
+
+        function result(){
+            let number = document.getElementById("even").value;
+            let num = parseInt(number);
+                if(num % 2 == 0){
+                    document.getElementById("even_odd").innerText=`Even num : ${num}`;
+                }else{
+                    document.getElementById("even_odd").innerHTML=`Odd num : ${num}`;
+                }
+            let squareres = num * num;
+            document.getElementById("square").innerHTML=`square of ${squareres}`;
+
+            let cuberes = num * num * num;
+            document.getElementById("cube").innerHTML=`square of ${cuberes}`;
+                }
+    </script>
+</body>
+</html>

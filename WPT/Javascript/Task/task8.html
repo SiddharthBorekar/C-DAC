@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>next and preview</title>
+    <style>
+        .container{
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content:center;
+            background-color: burlywood;
+        }
+        #btn{
+            display: flex;
+            justify-content: space-evenly;
+        }
+        #btn button{
+            background-color: slategray;
+        }
+        #image{
+            height:250px;
+            width:250px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <img src="./imges/Idli.jpg" id="image" alt="Idli">
+            <br>
+            <div id="btn">
+            <!-- <button type="button" onclick=functionIdli()>Idli</button> -->
+            <button type="button" onclick=next()>next</button>
+            <button type="button" onclick=previous()>previous</button>
+            </div>
+        </div>
+    </div>
+    <script>
+        let arr = ["./imges/Idli.jpg" , "./imges/kachori.jpg" ,"./imges/somosa.jpg" , "./imges/Upma.jpg"]
+        let index = 0;
+        // let last = arr.length
+
+        function next(){
+            index = (index+1) % arr.length;
+            document.getElementById("image").src = arr[index]
+        }
+
+        function previous(){
+            index = (index-1) % arr.length;
+            document.getElementById("image").src = arr[index]
+        }
+    </script>
+</body>
+</html>
