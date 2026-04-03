@@ -9,7 +9,9 @@ import ParentComponent from "./component/ParentComponent";
 import MyimagesCom from "./component/MyimagesCom";
 import UseStateHookComp from "./Hoooks/UseStateHookComp";
 import ToggleImage from "../src/Task/ToggleImage";
-import ImageToggleComp from "./Task/ImageToggleComp";
+import Exam from "./component/Exam";
+import ArrayOfObj from "./component/ArrayOfobj"
+
 
 function App() {
   return (
@@ -31,7 +33,8 @@ function App() {
       <MyimagesCom></MyimagesCom>
       <UseStateHookComp></UseStateHookComp>
       <ToggleImage></ToggleImage>
-      {/* <ImageToggleComp></ImageToggleComp> */}
+      <Exam></Exam>
+      <ArrayOfobj></ArrayOfobj>
     </div>
   );
 }

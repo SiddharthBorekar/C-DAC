@@ -5,6 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>imp que</title>
     <style>
+        .container{
+            height: 100vh;
+            width:100vw;
+            display:flex;
+            align-items: center;
+            justify-content: center;
+        }
         #table{
             width:200px;
             height:200px;
@@ -12,9 +19,15 @@
         td{
             text-align: center;
         }
+        #btn{
+            position: relative;
+            left: 60px;
+        }
     </style>
 </head>
 <body>
+    <div class="container">
+        <div class="box">
     <table border="1px" id="table">
         <tr id="tr1">
             <td id="td1">1</td>
@@ -32,5 +45,45 @@
             <td id="td9">9</td>
         </tr>
     </table>
+    <label for="number">Enter a number</label><br>
+    <input type="text" name="number" id="number"><br><br>
+
+    <label for="">Enter a colour</label><br>
+    <input type="text" name="number" id="colour"><br><br>
+    <button type="button" id="btn" onclick="Magic()">Magic</button>
+    </div>
+    </div>
+
+
+    <script>
+
+        function Magic(){
+            let num = parseInt( document.getElementById("number").value);
+            let rang = document.getElementById("colour").value;
+
+            switch(parseInt(num)){
+                case 1: document.getElementById("td1").style.backgroundColor=rang;
+                    break;
+                case 2: document.getElementById("td2").style.backgroundColor=rang;
+                    break;
+                case 3: document.getElementById("td3").style.backgroundColor=rang;
+                    break;
+                case 4: document.getElementById("td4").style.backgroundColor=rang;
+                    break;
+                case 5: document.getElementById("td5").style.backgroundColor=rang;
+                    break;
+                case 6: document.getElementById("td6").style.backgroundColor=rang;
+                    break;
+                case 7: document.getElementById("td7").style.backgroundColor=rang;
+                    break;
+                case 8: document.getElementById("td8").style.backgroundColor=rang;
+                    break;
+                case 9: document.getElementById("td9").style.backgroundColor=rang;
+                    break;
+                default:document.querySelectorAll("td").forEach(sagar =>{sagar.style.backgroundColor=""})
+                    break;
+            }
+        }
+    </script>
 </body>
 </html>
