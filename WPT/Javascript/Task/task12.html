@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>replace and replace all</title>
+    <style>
+        .container{
+            height:100vh;
+            width:100vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        #input1{
+            position: relative;
+            bottom:13px;
+            text-align: center;
+        }
+        #input2{
+            position: relative;
+            bottom:13px;
+            text-align: center;
+        }
+        #btn1{
+            position: relative;
+            bottom:13px;
+            text-align: center;
+        }
+        #btn2{
+            position: relative;
+            bottom:13px;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+        <textarea name="text" id="text1"></textarea>
+        <input type="text" placeholder="rerplace text" id="replaceOld">
+        <input type="text" placeholder="replaceAll" id="replaceNew">
+        <button type="button" id="btn1" onclick="replace()">replace</button>
+        <button type="button" id="btn2" onclick="replaceAll()">replaceAll</button>
+        <textarea name="text" id="text2"></textarea>  
+        </div>
+    </div>
+
+    <script>
+        function replace(){
+            let Textarea1 = document.getElementById("text1").value;
+            let replacetext = document.getElementById("replaceOld").value;
+            let replaceTextAll = document.getElementById("replaceNew").value;
+
+            let Textarea2 = Textarea1.replace(replacetext,replaceTextAll);
+            document.getElementById("text2").value = Textarea2
+        }
+
+        function replaceAll(){
+            let Textarea1 = document.getElementById("text1").value;
+            let replacetext = document.getElementById("replaceOld").value;
+            let replaceTextAll = document.getElementById("replaceNew").value;
+
+            let Textarea2 = Textarea1.replace(replacetext,replaceTextAll);
+            document.getElementById("text2").value = Textarea2
+        }
+
+    </script>
+</body> 
+</html>
