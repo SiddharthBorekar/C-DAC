@@ -26,5 +26,6 @@ public class MyDate {
 		//d.setDate(8, 5, 2026);
 		//d.displayDate();
 		MyDate d1 = new MyDate();
+		d1.dd = 8;
 	}
 }
