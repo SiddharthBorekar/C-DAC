@@ -8,11 +8,13 @@ public class Player {
 	}
 	public Player (String PlayerName) {
 		this();
-		this .PlayerName = PlayerName;
+		this.PlayerName = PlayerName;
 	}
 	public String toString() {
 		return "Player [PlayerName = "+PlayerName+" "+PlayerCountry+"]";
 	}
+	
+	
 	public static void main(String[] args) {
 		Player p = new Player("Virat");
 		System.out.println(p);
