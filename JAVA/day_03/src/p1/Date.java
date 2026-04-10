@@ -8,7 +8,7 @@ public class Date {
 		System.out.println("This is Default Constructor :");
 	}
 	private Date(int dd,int mm,int yy) {
-		this.day = dd;
+		day = dd;
 		this.month = mm;
 		this.year = yy;
 	}
