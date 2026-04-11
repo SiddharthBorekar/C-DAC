@@ -4,10 +4,11 @@ public class sum_of_N_Num {
 		Scanner s = new Scanner(System.in);
 		System.out.println("Enter a nth number :");
 		int size = s.nextInt();
+		int sum = 0;
 		
-		for(int i=1;i<size;i++) {
-			
-			System.out.println(size + i);
+		for(int i=1;i<=size;i++) {
+			sum += i;
 		}
+		System.out.println(sum);
 	}	
 }
