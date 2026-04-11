@@ -5,10 +5,12 @@ public class Table {
 		System.out.println("Eneter a number to print Table :");
 		int num = s.nextInt();
 		
-		int table = 0;
+		int table;
 		for(int i=1;i<=10;i++) {
-			System.out.println(i);
+			table = num * i;
+			System.out.println(table);
 		}
+		
 
 	}	
 	
