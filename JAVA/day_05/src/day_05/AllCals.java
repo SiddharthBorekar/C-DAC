@@ -27,6 +27,5 @@ public class AllCals extends A implements StaticCal,CompareCal{
 		a.avg(10,20);
 		System.out.println(ArithCal.no);
 		
-		
 	}
 }
