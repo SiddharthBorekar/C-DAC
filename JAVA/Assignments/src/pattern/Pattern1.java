@@ -46,17 +46,16 @@ public class Pattern1 {
 		//		*	*	*
 		//	*	*	*	*
 		
-//		for(int i=1;i<=4;i++) {
-//			
-//			for(int j=i;j<=4 - i;j++) {
-//				System.out.print("  ");
-//			}
-//														error
-//			for(int j=1;j<=i;j++) {
-//				System.out.print("* ");
-//			}
-//			System.out.println();
-//		}
+		for(int i=1;i<=4;i++) {
+			
+			for(int j=i;j<=4-i;j++) {
+				System.out.print("  ");
+			}
+			for(int j=1;j<=i;j++) {
+				System.out.print("* ");
+			}
+			System.out.println();
+		}
 		
 		
 		//1
@@ -101,17 +100,17 @@ public class Pattern1 {
 		//0101
 		//10101
 		
-		for(int i=1;i<=5;i++){
-			for(int j=1;j<=i;j++){
-				int sum = i+j;
-				if(sum % 2 == 0) {
-					System.out.print("1");
-				}else {
-					System.out.print("0");
-				}
-			}
-			System.out.println();
-		}
+//		for(int i=1;i<=5;i++){
+//			for(int j=1;j<=i;j++){
+//				int sum = i+j;
+//				if(sum % 2 == 0) {
+//					System.out.print("1");
+//				}else {
+//					System.out.print("0");
+//				}
+//			}
+//			System.out.println();
+//		}
 		
 	}
 }
