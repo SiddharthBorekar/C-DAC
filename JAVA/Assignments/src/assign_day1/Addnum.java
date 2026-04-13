@@ -1,3 +1,4 @@
+package assign_day1;
 public class Addnum {
 	public static void main(String[] args) {
 		int x = 4;

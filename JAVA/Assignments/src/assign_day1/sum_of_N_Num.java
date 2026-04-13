@@ -1,3 +1,4 @@
+package assign_day1;
 import java.util.Scanner;
 public class sum_of_N_Num {
 	public static void main(String[] args) {
