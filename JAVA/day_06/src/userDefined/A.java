@@ -1,4 +1,4 @@
-package day_06;
+package userDefined;
 
 public class A {
 	public double div(int a ,int b) {

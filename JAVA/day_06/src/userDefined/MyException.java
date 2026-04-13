@@ -1,4 +1,4 @@
-package day_06;
+package userDefined;
 
 public class MyException extends Exception{
 	@Override

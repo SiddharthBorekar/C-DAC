@@ -1,4 +1,4 @@
-package day_06;
+package userDefined;
 
 public class Demo4 {
 	public static void main(String[] args) {
