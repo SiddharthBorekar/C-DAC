@@ -1,4 +1,4 @@
-package day_06;
+package exceptionDemo;
 
 public class Demo3 {
 	public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package day_06;
+package exceptionDemo;
  
 
 //this is compile time error 

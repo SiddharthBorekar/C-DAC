@@ -10,7 +10,7 @@ public class Demo5 {
 //		FileOutputStream fos = new FileOutputStream("abc.txt", true);
 //		FileOutputStream fos = new FileOutputStream("abc.txt");
 		FileOutputStream fos = new FileOutputStream("abc.txt",true);
-		fos.write(65);
+		fos.write(66);
 		
 		String str = "Hello World";
 		byte []b = str.getBytes();
