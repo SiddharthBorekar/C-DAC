@@ -5,5 +5,5 @@ public class HelloWorldTraditional implements HelloWorldInterface{
 	public String sayhello() {
 		return "Hello";
 	}
-
 }
+
