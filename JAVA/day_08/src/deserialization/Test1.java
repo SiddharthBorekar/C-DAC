@@ -11,8 +11,4 @@ public class Test1 {
 		Student s1 = (Student)oin.readObject();
 		System.out.println(s1);
 	}
-
 }
-
-
-
