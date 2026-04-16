@@ -30,10 +30,7 @@ public class ArrayListdemo {
 		System.out.println(a);
 		
 		
-		
-		
 		Collections.sort(a1);
 		System.out.println(a1);
-
 	}
 }
