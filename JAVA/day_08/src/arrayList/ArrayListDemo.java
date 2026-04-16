@@ -24,8 +24,7 @@ public class ArrayListDemo {
 //		int a = (Integer)a.get(3);
 		for(Object o:a1) {
 			System.out.println(o);
-			Integer obj = (Integer)o;
+//			Integer obj = (Integer)o;
 		}
-		
 	}
 }
