@@ -5,10 +5,6 @@ public class Employee implements Comparable<Employee> {
 	private String empname;
 	private float sal;
 
-	private Employee () {
-		System.out.println("Default constructor");
-	}
-
 	public Employee(int empId, String empname, float sal) {
 		super();
 		this.empId = empId;
@@ -44,16 +40,13 @@ public class Employee implements Comparable<Employee> {
 	public void setEmpname(String empname) {
 		this.empname = empname;
 	}
-	
+
 	public int compareTo(Employee e) {
-		if(this.empId > e.empId)
-		{
+		if (this.empId > e.empId) {
 			return +1;
-		}else if(this.empId < e.empId)
-		{
+		} else if (this.empId < e.empId) {
 			return -1;
-		}
-		else
+		} else
 			return 0;
 	}
 
