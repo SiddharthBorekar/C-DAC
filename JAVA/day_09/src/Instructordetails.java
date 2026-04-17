@@ -11,6 +11,8 @@ public class Instructordetails {
 		Instructor i2 = new Instructor ("Aditya",25,"Male",false,
 				Arrays.asList("Bsc","CBZ","Chemestry"));
 		
+		List <Instructor> list = Arrays.asList (i1,i2);
+		
 		return list;
 		
 	}		

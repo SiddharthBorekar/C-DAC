@@ -56,10 +56,4 @@ public class Instructor {
 		this.courses = courses;
 	}
 	
-	public static void main(String[] args) {
-		Instructor i1 = new Instructor ("Siddharth",23,"Male",false,
-				Arrays.asList("C","C++",".Net"));
-		System.out.println(i1);
-	}
-	
 }
