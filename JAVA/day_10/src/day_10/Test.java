@@ -24,6 +24,5 @@ public class Test {
 		Collections.sort(t);
 		System.out.println(t);
 		t.stream().sorted().forEach(System.out::println);
-
 	}
 }

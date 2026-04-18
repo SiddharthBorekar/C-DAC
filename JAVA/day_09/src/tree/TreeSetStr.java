@@ -4,7 +4,7 @@ import java.util.TreeSet;
 
 public class TreeSetStr {
 	public static void main(String[] args) {
-		
+
 		TreeSet<String> st = new TreeSet<String>(new MyComparatorStr());
 //		TreeSet<String> st = new TreeSet<String>();
 		st.add("sagar");
