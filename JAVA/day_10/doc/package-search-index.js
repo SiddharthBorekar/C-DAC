@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"day_10"},{"l":"hashmap"},{"l":"hashtable"},{"l":"properties"},{"l":"queue"}];updateSearchResults();

@@ -2,6 +2,8 @@ package hashmap;
 
 import java.util.Collection;
 import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
 
@@ -23,7 +25,24 @@ public class HashMapDemo1 {
 		Collection<Integer> i = h.values();
 		System.out.println(i);
 		
+		
 		Set<Entry<String,Integer>> s1 = h.entrySet();
 		System.out.println(s1);
+		
+		
+		System.out.println("_________");
+		Iterator<Map.Entry<String,Integer>> itr =
+				s1.iterator();
+		
+		while(itr.hasNext()) {
+			Map.Entry<String,Integer> i = itr.next();
+			System.out.println(i.getKey()+" "+i.getValue());
+			
+			if(i.getKey().equals("Aditya"))
+			{
+				i.setValue(700);
+			}
+		}
+		System.out.println(h);
 	}
 }
