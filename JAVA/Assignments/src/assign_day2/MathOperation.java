@@ -9,10 +9,11 @@ public class MathOperation {
 	
 	public void init() {
 		Scanner s = new Scanner(System.in);
+		System.out.println("Enter value of X :");
 		X = s.nextInt();
-		System.out.println("Enter value of X :"+X);
+		
+		System.out.println("Enter value of X :");
 		Y = s.nextInt();
-		System.out.println("Enter value of X :"+Y);
 	}
 	public void add() {
 		R = X+Y;
@@ -21,18 +22,23 @@ public class MathOperation {
 		R = X*Y;
 	}
 	public void power() {
-		R = Math.pow(X,R);
+		R = Math.pow(X,Y);
 	}
 	public void display() {
-		System.out.println();
+		System.out.println(R);
 	}
 	
 	public static void main(String[] args) {
 		MathOperation m = new MathOperation();
 		m.init();
+		
 		m.add();
-//		m.multiply();
-//		m.power();
-//		m.display();
+		m.display();
+		
+		m.multiply();
+		m.display();
+		
+		m.power();
+		m.display();
 	}
 }
