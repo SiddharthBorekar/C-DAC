@@ -7,7 +7,7 @@ public class MathsOperation1 {
 	private int b;
 	private float x;
 	private float y;
-	private float z;				not completed
+	private float z;
 	private double p;
 	private int q;
 	private int num;
@@ -50,7 +50,19 @@ public class MathsOperation1 {
 		double mulDouble = p * q;
 		System.out.println(mulDouble);
 		
-		
+	}
+	public void multiply(int... a)
+	{
+		int res = 1;
+		for(int i =0;i < a.length; i++)
+		{
+			res = a[i] * res;
+		}
+		for(int s : a)
+		{
+			System.out.print(s+" ");
+		}
+		System.out.println("\nMultiplication of given Array is: "+res);
 	}
 	
 	public static void main(String[] args) {
