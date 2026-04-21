@@ -17,7 +17,7 @@ public class EmployeeMain {
 		Scanner s = new Scanner(System.in);
 		List<Employee> e = new ArrayList<Employee>();
 		
-		for(int i=1;i<=2;i++) {
+		for(int i=1;i<=3;i++) {
 			System.out.println("Enter Employee ID :");
 			int Id = s.nextInt();
 			
