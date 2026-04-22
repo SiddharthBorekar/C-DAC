@@ -33,7 +33,7 @@ public class ProductMain {
 			}
 		}
 		System.out.println("\nPID of the product with the highest price: "+maxPid);
-		System.out.println("\nTotal amount spent on all products.: "+XYZProduct.totalAmt(pro));
+		System.out.println("\nTotal amount spent on all products.: "+Product2.totalAmt(pro));
 		sc.close();
 	}
 
