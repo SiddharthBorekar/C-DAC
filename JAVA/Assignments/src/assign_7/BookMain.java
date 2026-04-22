@@ -9,16 +9,25 @@
 package assign_7;
 
 import java.util.HashMap;
+import java.util.Scanner;
 
 public class BookMain {
 	public static void main(String[] args) {
 		HashMap<String,Book> h = new HashMap<>();
+		Scanner s = new Scanner(System.in);
 		h.put("101", new Book("101","Naruto","Sagar",2));
 		h.put("102", new Book("102","Onepice","sidd",3));
-		h.put("103", new Book("103","padmavati","om",1));
-		h.put("104", new Book("104","patner","aditya",2));
-		h.put("105", new Book("105","ramlila","aman",1));
+		h.put("103", new Book("103","Padmavati","om",1));
+		h.put("104", new Book("104","Patner","aditya",2));
+		h.put("105", new Book("105","Ramlila","aman",1));
 		h.put("106", new Book("106","Animal","sawyam",3));
-		System.out.println(h);
+//		System.out.println(h);
+		
+		h.forEach((Id,Book) -> System.out.println("Id "+Id+" Book Details "+Book));
+		
+		
+		
+		
+		
 	}
 }
