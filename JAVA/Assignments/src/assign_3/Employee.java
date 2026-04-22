@@ -5,7 +5,7 @@
 //and DA = 98% of basic salary.
 //If the employee's salary is input by the user, write a program to find his gross salary. GS=Basic+DA+HRA
 
-package assign_day3;
+package assign_3;
 
 import java.util.Scanner;
 

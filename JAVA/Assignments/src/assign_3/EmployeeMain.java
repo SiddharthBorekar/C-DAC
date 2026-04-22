@@ -4,9 +4,9 @@
 //empNo should be auto incremented. 
 //display total employees and totalSalary using the class method.
 
-package assign_day3;
+package assign_3;
 
-public class Employee1 {
+public class EmployeeMain {
 	private static int empNo;
 	private float sal;
 	private static float totalsal;
@@ -16,7 +16,7 @@ public class Employee1 {
 		totalsal = 0;
 	}
 	
-	public Employee1(float sal) {
+	public EmployeeMain(float sal) {
 		empNo++;
 		this.sal = sal;
 		totalsal += sal;
@@ -26,15 +26,15 @@ public class Employee1 {
 	}
 	
 	public static void main(String[] args) {
-		Employee1 e1 = new Employee1(50870);
-		Employee1.display();
-		Employee1 e2 = new Employee1(70250);
-		Employee1.display();
-		Employee1 e3 = new Employee1(90440);
-		Employee1.display();
-		Employee1 e4 = new Employee1(70450);
-		Employee1.display();
-		Employee1 e5 = new Employee1(70044);
-		Employee1.display();
+		EmployeeMain e1 = new EmployeeMain(50870);
+		EmployeeMain.display();
+		EmployeeMain e2 = new EmployeeMain(70250);
+		EmployeeMain.display();
+		EmployeeMain e3 = new EmployeeMain(90440);
+		EmployeeMain.display();
+		EmployeeMain e4 = new EmployeeMain(70450);
+		EmployeeMain.display();
+		EmployeeMain e5 = new EmployeeMain(70044);
+		EmployeeMain.display();
 	}
 }

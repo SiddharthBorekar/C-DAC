@@ -12,6 +12,6 @@ public class Test {
 		t2.start();
 		
 		Thread.sleep(5000);
-		System.out.println("Balance :"+a.getblance());
+		System.out.println("Balance :"+a.getBalance());
 	}
 }

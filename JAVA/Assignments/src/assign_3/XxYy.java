@@ -1,4 +1,4 @@
-package assign_day3;
+package assign_3;
 
 public class XxYy {
 	public static void main(String[] args) {

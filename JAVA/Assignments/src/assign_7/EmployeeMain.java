@@ -5,12 +5,14 @@
 //Sort employees by designation alphabetically using a Comparator. (5 Marks)
 //Create a Map<String, Double> showing total salary per designation. (10 Marks)
 
-package assign_day11;
+package assign_7;
 
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
+import java.util.Map;
 import java.util.Scanner;
+import java.util.stream.Collectors;
 
 public class EmployeeMain {
 	public static void main(String[] args) {
@@ -37,6 +39,8 @@ public class EmployeeMain {
 			e.stream().filter(i->i.getSalary()>50000).forEach(System.out::println);
 			System.out.println("---------------");
 			e.stream().sorted(Comparator.comparing(Employee::getDesignation)).forEach(System.out::println);
-			
+			System.out.println("---------------");
+			Map<String,Double> m = e.stream().collect(Collectors.groupingBy(Employee::getDesignation,Collectors.summingDouble(Employee::getSalary)));
+			System.out.println(m);
 	}
 }

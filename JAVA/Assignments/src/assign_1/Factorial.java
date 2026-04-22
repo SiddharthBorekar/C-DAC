@@ -1,4 +1,4 @@
-package assign_day1;
+package assign_1;
 import java.util.Scanner;
 public class Factorial {
 	public static void main(String[] args) {

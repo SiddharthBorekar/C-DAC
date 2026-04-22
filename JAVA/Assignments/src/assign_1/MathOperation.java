@@ -1,4 +1,4 @@
-package assign_day1;
+package assign_1;
 
 public class MathOperation {
 

@@ -5,7 +5,7 @@
 //Sort students by marks in descending order using a Comparator and display the sorted list. (5 Marks)
 //Create a Map<String, List<Student>> where key = department name and value = list of students belonging to that department, and display this map. (5 Marks)
 
-package assign_day11;
+package assign_7;
 
 public class Student {
 	private int id;

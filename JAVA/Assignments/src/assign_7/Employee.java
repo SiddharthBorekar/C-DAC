@@ -5,7 +5,7 @@
 //Sort employees by designation alphabetically using a Comparator. (5 Marks)
 //Create a Map<String, Double> showing total salary per designation. (10 Marks)
 
-package assign_day11;
+package assign_7;
 
 public class Employee {
 	private int Id;

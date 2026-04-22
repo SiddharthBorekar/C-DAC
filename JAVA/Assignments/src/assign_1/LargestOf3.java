@@ -1,5 +1,5 @@
 //Write a program to find the largest of three numbers. 
-package assign_day1;
+package assign_1;
 
 import java.util.Scanner;
 public class LargestOf3 {

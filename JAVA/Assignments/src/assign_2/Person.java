@@ -1,4 +1,4 @@
-package assign_day2;
+package assign_2;
 
 import java.util.Scanner;
 
