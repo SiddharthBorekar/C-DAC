@@ -1,11 +1,7 @@
 package assign_7;
 
 import java.util.ArrayList;
-import java.util.Comparator;
-import java.util.List;
-import java.util.Map;
 import java.util.Scanner;
-import java.util.stream.Collectors;
 
 /*Q1. Student Result Management (30 Marks)
 Write a Java program to manage students’ exam results.
@@ -17,35 +13,25 @@ Write a Java program to manage students’ exam results.
 	Create a Map<String, List<Student>> where key = department name and value = list of students belonging to that department, and display this map. (5 Marks)*/
 public class StudentMain {
 	public static void main(String[] args) {
-		Scanner s = new Scanner(System.in);
-		List<Student> a = new  ArrayList <Student>();
-		
-		for(int i = 0; i<3;i++)
-		{
-			System.out.println("Enter Student Id: ");
+		ArrayList<Student> a = new ArrayList<Student>();
+		Scanner s = new Scanner (System.in);
+		for(int i=1;i<=2;i++) {
+			System.out.println("Enter a Student ID");
 			int id = s.nextInt();
+			
+			System.out.println("Enter a Student name");
+			String name = s.nextLine();
+			
 			s.nextLine();
-			System.out.println("Enter Student Name: ");
-			String nm = s.nextLine();
-			System.out.println("Enter Student Department: ");
-			String dept = s.nextLine();
-			System.out.println("Enter Student Marks: ");
+			
+			System.out.println("Enter a Student department");
+			String department = s.nextLine();
+			
+			System.out.println("Enter a Student marks");
 			double marks = s.nextDouble();
 			
-//			Student ss = new Student(id, nm, dept, marks);
-//			a.add(ss);
-			a.add(new Student(id, nm, dept, marks));
-			
+			a.add(new Student(id, name, department, marks));
 		}
-//		System.out.println(a);
 		a.stream().forEach(System.out::println);
-		System.out.println("------------------");
-		a.stream().filter(i->i.getMarks()>60).forEach(System.out::println);
-		System.out.println("------------------");
-		a.stream().sorted(Comparator.comparing(Student::getMarks).reversed()).forEach(System.out::println);
-		System.out.println("------------------");
-		Map<String, List<Student>> m =a.stream().collect(Collectors.groupingBy(Student::getDepartment));
-		System.out.println(m);
-		
 	}
 }
