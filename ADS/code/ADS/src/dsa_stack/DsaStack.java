@@ -7,7 +7,7 @@ public class DsaStack {
 		int num;
 		char ch;
 
-		IntStack st = new IntStack(5);
+		IntMainStack st = new IntMainStack(5);
 		Scanner s = new Scanner(System.in);
 
 		do {
