@@ -1,4 +1,4 @@
-package LinkedList;
+package LinkedList.singly;
 
 import java.util.Scanner;
 
@@ -115,7 +115,7 @@ class LinkedList1 {
 		if(iter.getNext() != null) {
 			new_node.setNext(iter.getNext());
 			iter.setNext(new_node);
-			
+
 			return;
 		}
 		else {
@@ -123,7 +123,6 @@ class LinkedList1 {
 			return;
 		}
 	}
-
 }
 
 public class IntNode {
