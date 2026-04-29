@@ -68,7 +68,7 @@ class LinkedList1 {
 	public void display() {
 		IntNode1 iter = head;
 		while (iter != null) {
-			System.out.println(iter.getData() + "-->");
+			System.out.print(iter.getData() + "-->");
 			iter = iter.getNext();
 		}
 	}
@@ -97,28 +97,27 @@ class LinkedList1 {
 		iter.setNext(new_node);
 		return;
 	}
-	
-	public void InsertBefore(int d,int key) {
+
+	public void InsertBefore(int d, int key) {
 		IntNode1 new_node = new IntNode1(d);
-		if(head ==  null) {
+		if (head == null) {
 			System.out.println("List is Empty");
 			return;
 		}
-		if(head.getData() == key) {
+		if (head.getData() == key) {
 			InsertFirst(d);
 			return;
 		}
-		
+
 		IntNode1 iter = head;
-		while(iter.getNext() != null && iter.getNext().getData() != key)
+		while (iter.getNext() != null && iter.getNext().getData() != key)
 			iter = iter.getNext();
-		if(iter.getNext() != null) {
+		if (iter.getNext() != null) {
 			new_node.setNext(iter.getNext());
 			iter.setNext(new_node);
 
 			return;
-		}
-		else {
+		} else {
 			System.out.println("Invalid key");
 			return;
 		}
@@ -167,19 +166,19 @@ public class IntNode {
 				break;
 			case '5':
 				System.out.println("Enter Number: ");
-		        int no3 = s.nextInt();
-		        ll.InsertSorted(no3);
-		        break;
+				int no3 = s.nextInt();
+				ll.InsertSorted(no3);
+				break;
 			case '6':
 				System.out.println("Enter value to insert: ");
-		        int d = s.nextInt();
-		        System.out.println("Enter key before which to insert: ");
-		        int key = s.nextInt();
-		        ll.InsertBefore(d, key);
-		        break;
+				int d = s.nextInt();
+				System.out.println("Enter key before which to insert: ");
+				int key = s.nextInt();
+				ll.InsertBefore(d, key);
+				break;
 			case '7':
-		        System.out.println("Exiting...");
-		        break;
+				System.out.println("Exiting...");
+				break;
 			default:
 				System.out.println("Enter valid choise");
 			}

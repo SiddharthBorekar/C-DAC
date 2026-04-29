@@ -71,7 +71,6 @@ class DoublyLL {
 		return;
 	}
 	
-	
 	public void display() {
 		DNode temp = head;
 		while(temp != null) {
@@ -80,7 +79,6 @@ class DoublyLL {
 		}
 		System.out.println("null");
 	}
-	
 }
 
 public class DubblyNode {
@@ -108,7 +106,7 @@ public class DubblyNode {
 		dl.display();
 		
 //		System.out.println("Insert By Position");
-		
+
 		System.out.println("Insert the data :");
 		int data = s.nextInt();
 		
@@ -119,6 +117,5 @@ public class DubblyNode {
 		System.out.println("Doubly LinkedList :");
 		
 		dl.display();
-	}
-	
+	}	
 }
