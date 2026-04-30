@@ -46,12 +46,24 @@ public class Resursion2 {
 		spaceprint(n - 1);
 	}
 
+	public static int calfact(int n) {
+		if(n == 1 || n == 0) {
+			return 1;
+		}
+		int nm1 = calfact(n - 1);
+		int factn = n * nm1;
+		return factn;
+	}
+	
 	public static void main(String[] ar) {
 //		  fun1(5);
 //		  System.out.println("\n The End.....");
 
-		fun2(4);
-		System.out.println("\n The End");
+//		fun2(4);
+//		System.out.println("\n The End");
+		int ans = calfact(5);
+		System.out.println(ans);
+//		System.out.println();
 	}
 
 }

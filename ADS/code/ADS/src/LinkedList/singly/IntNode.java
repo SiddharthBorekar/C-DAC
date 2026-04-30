@@ -68,7 +68,8 @@ class LinkedList1 {
 	public void display() {
 		IntNode1 iter = head;
 		while (iter != null) {
-			System.out.print(iter.getData() + "-->");
+			System.out.print
+			(iter.getData() + "-->");
 			iter = iter.getNext();
 		}
 	}
@@ -91,7 +92,8 @@ class LinkedList1 {
 
 		IntNode1 iter = head;
 		while (iter.getNext() != null && iter.getNext().getData() < d)
-			iter = iter.getNext();
+			iter =
+			iter.getNext();
 
 		new_node.setNext(iter.getNext());
 		iter.setNext(new_node);
