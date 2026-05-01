@@ -1,74 +1,89 @@
+st.push(10);
+st.push(20);
+st.push(30);
 
-25/3/26
+int a = st.pop();   // 30
+st.push(a - 5);     // 25
+st.push(40);
 
-
-*Javascript:
--it is use to add functionality or behavior into webapp.
--it is interpreted language.
--it is loosly types language.
-
-*how many ways we can use js 
--there are two ways to use Javascript
-1.internal Javascript : in html file we use script tag and in that write Javascript code.
-2.external Javascript : in this we create a seperate Javascript file with filename.js extension and import in html file by using script tag.
-
-*How to display output 
-1.document.write(): it display output on webpage. in single line
-2.window.alert(): it display output in popup window.
-3.console.log(): it will display output in browser console or terminal
-4.innerHTML: it will display output inside an element.
-
-*variable: it is use to stora data in it.
-in js we use var,let and const keyword for creating variable
-
-variable declaration:   let variableName;
-                      ex: let city;
-variable initialization:   variableName = value;
-                      ex:  city="Pune";
-
- defining a variable :   let country = "India";  
-
-Q. why Javascript is called as loosly types language
-
-* function in js 
-*arrow function
-*anonymous function
-*optional parameterize function
-*rest parameterize function 
-
-
-== : it check only value, if both are same then it return true result 
-Ex:5 == 5 true
-5 == '5' true
-
-=== : it will checj value as well as its data type if both are same then only it return true result.
-
-ex:
-5 === 5 true
-5 === '5' false 
-
-*how to access value from input control
-*how to debug code on browser.
-
-Task1: change multiple image
-Task2: toggle image task 
-Task3: change backgroud color 
-Task4: Calculator task 
+st.pop();           // removes 40
+st.push(50);
 
 
 
 
 
+import java.util.Stack;
+
+class MinStack {
+
+    private Stack<Integer> stack;
+    private Stack<Integer> minStack;
+
+    public MinStack() {
+        stack = new Stack<>();
+        minStack = new Stack<>();
+    }
+
+    // Push element
+    public void push(int x) {
+        stack.push(x);
+
+        if (minStack.isEmpty() || x <= minStack.peek()) {
+            minStack.push(x);
+        }
+    }
+
+    // Pop element
+    public void pop() {
+        if (stack.isEmpty()) {
+            System.out.println("Stack is empty");
+            return;
+        }
+
+        int removed = stack.pop();
+
+        if (removed == minStack.peek()) {
+            minStack.pop();
+        }
+    }
+
+    // Get top element
+    public int top() {
+        if (stack.isEmpty()) {
+            throw new RuntimeException("Stack is empty");
+        }
+        return stack.peek();
+    }
+
+    // Get minimum element
+    public int getMin() {
+        if (minStack.isEmpty()) {
+            throw new RuntimeException("Stack is empty");
+        }
+        return minStack.peek();
+    }
+
+    // Display stack
+    public void display() {
+        System.out.println(stack);
+    }
+}
 
 
 
 
+What is postfix conversion of given infix expression?
+Infix : 4 + 5 * 6 / 3 + 9 -7	
+
+A: 4563*/+9+7-
+B: 456*3/+9+7-
+C: 456*3+/9+7-
+D: None of the above
 
 
-
-
-
-
-
-
-
+What is the value of the postfix expression 6 3 2 4 + – *?
+a) 74
+b) -18
+c) 22
+d) 40
