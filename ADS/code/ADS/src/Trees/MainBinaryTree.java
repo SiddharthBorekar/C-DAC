@@ -52,7 +52,7 @@ class Binarytree {
 		root = null;
 	}
 
-	private Binarytree(Node root) {
+	public Binarytree(Node root) {
 		this.root = root;
 	}
 
@@ -206,6 +206,7 @@ class Binarytree {
 		return sum;
 	}
 
+
 	public int displayLevelWiseLeafMax() {
 
 		if (root == null) {
@@ -329,6 +330,6 @@ public class MainBinaryTree {
 		System.out.println(Bt.displayLevelWiseNonLeafSum());
 		System.out.println(Bt.displayLevelWiseLeafMin());
 		Bt.displayLevelWiseMaxMin();
-		
+
 	}
 }

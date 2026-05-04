@@ -1,4 +1,4 @@
-package garbage;
+package practice;
 
 import java.util.Scanner;
 

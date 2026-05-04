@@ -36,33 +36,34 @@ class IntNode1 {
 class LinkedList1 {
 	private IntNode1 head;
 
+	
 	public LinkedList1() {
 		head = null;
 	}
 
 	public void InsertFirst(int d) {
 		IntNode1 new_node = new IntNode1(d);
-		if (head == null) {
+		if(head == null) {
 			head = new_node;
 			return;
 		}
 		new_node.setNext(head);
 		head = new_node;
-		return;
+		return; 
 	}
 
 	public void InsertLast(int d) {
 		IntNode1 new_node = new IntNode1(d);
-		if (head == null) {
+		if(head == null) {
 			head = new_node;
 			return;
 		}
 		IntNode1 iter = head;
-		while (iter.getNext() != null)
+		while(iter != null) {
 			iter = iter.getNext();
-
-		iter.setNext(new_node);
-		return;
+			iter.setNext(new_node);
+			return;
+		}
 	}
 
 	public void display() {
