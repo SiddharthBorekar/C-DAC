@@ -8,14 +8,35 @@ class Node{
 		this.data = d;
 		this.next = null;
 	}
+
+	public int getData() {
+		return data;
+	}
+
+	public void setData(int data) {
+		this.data = data;
+	}
+
+	public Node getNext() {
+		return next;
+	}
+
+	public void setNext(Node next) {
+		this.next = next;
+	}
+
+	@Override
+	public String toString() {
+		return "Node [data=" + data + ", next=" + next + "]";
+	}
 }
 
 class LinkedList {
 	Node head;
 	
 	public void insertFirst(int d) {
-		Node newnode = new Node(d);
-		if(head ==  null) {
+		Node newnode =new Node(d);
+		if(head == null) {
 			head = newnode;
 			return;
 		}
@@ -25,7 +46,7 @@ class LinkedList {
 	}
 	
 	public void insertLast(int d) {
-		Node newnode = new Node(d); 
+		Node newnode = new Node(d);
 		if(head == null) {
 			head = newnode;
 			return;
@@ -37,18 +58,18 @@ class LinkedList {
 		iter.next = newnode;
 	}
 	
-	public void display() { 
+	public void display() {
 		if(head == null) {
-			System.out.println("LinkList is Empty...");
+			System.out.println("Linklist is Empty:");
 			return;
 		}
 		Node iter = head;
 		while(iter != null) {
-			System.out.print(iter.data +" --> ");
+			System.out.print(iter.data+" --> ");
 			iter = iter.next;
 		}
-//		System.out.println("null");
 	}
+	
 	public void deleteFirst() {
 		if(head == null) {
 			System.out.println("LinkList is Empty...");
@@ -91,12 +112,11 @@ class LinkedList {
 	    Node next = null;
 
 	    while (curr != null) {
-	        next = curr.next;   // 1. store next
-	        curr.next = prev;   // 2. reverse link
-	        prev = curr;        // 3. move prev
-	        curr = next;        // 4. move curr
+	        next = curr.next;   // store next
+	        curr.next = prev;   // reverse link
+	        prev = curr;        // move prev
+	        curr = next;        // move curr
 	    }
-
 	    head = prev; // new head
 	}
 	

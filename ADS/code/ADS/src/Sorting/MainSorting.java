@@ -18,8 +18,8 @@ class Sorting{
 				break;
 		}
 	}
-	
-	
+
+
 	public static void selection_sort(int arr[]) {
 		int i,j,min,t;
 		for(i=0;i<arr.length-1;i++) {
@@ -37,6 +37,10 @@ class Sorting{
 	}
 	
 	
+	public static void insertion_sort() {
+		
+	}
+
 }
 
 public class MainSorting {
