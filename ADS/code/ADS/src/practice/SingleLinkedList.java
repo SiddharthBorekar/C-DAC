@@ -110,7 +110,7 @@ class LinkedList {
 	    Node prev = null;
 	    Node curr = head;
 	    Node next = null;
-
+	    
 	    while (curr != null) {
 	        next = curr.next;   // store next
 	        curr.next = prev;   // reverse link
@@ -119,7 +119,7 @@ class LinkedList {
 	    }
 	    head = prev; // new head
 	}
-	
+
 }
 public class SingleLinkedList{
 	public static void main(String[] args) {

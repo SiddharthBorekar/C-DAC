@@ -91,7 +91,7 @@ class StudentLL {
 	    if (head == null || head.next == null) {
 	        return head;
 	    }
-
+	    
 	    StudNode newHead = reverse(head.next);
 
 	    head.next.next = head;
@@ -103,7 +103,7 @@ class StudentLL {
 	    head = reverse(head);
 	}
 	
-	
+	 
 	public Student findMiddle() {
 	    if(head == null) {
 	    	return null;
@@ -118,8 +118,11 @@ class StudentLL {
 	    }
 	    return slow.getData();
 	}
+
+	public void 
 	
-	public void display() {
+	
+	display() {
 		if (head == null) {
 			System.out.println("List is Empty:");
 			return;
@@ -153,6 +156,18 @@ class StudentLL {
 
 	    System.out.println("Null");
 	}
+	
+	public void SwapAlternate() {
+		StudNode temp = head;
+		Student preserve;
+		
+		while (temp.next != null) {
+			preserve = temp.data;
+			temp.data = temp.next.data;
+			temp.next.data = preserve;
+			temp = temp.next.next;
+		}
+	}
 }
 
 public class StudentSingliLL {
@@ -173,18 +188,17 @@ public class StudentSingliLL {
 		li.insertLast(s5);
 
 //		li.deletFirst();
-//
+
 //		li.deletLast();
-//
+
 //		li.display();
-//
 //		li.reverseRec();
 //		li.display();
-//		
+
 		li.display();
 //		System.out.println(li.findMiddle());
-		
+
 		li.printAlternate();
-		
+
 	}
 }
