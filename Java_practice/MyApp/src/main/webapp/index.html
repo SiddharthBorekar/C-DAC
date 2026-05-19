@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>First Code</title>
+</head>
+<body>
+	<form action="register.html" method="get" name="regform"
+		onsubmit="return validate()">
+		<table border="1">
+		<tr>
+			<td>Enter FirstName :</td>
+			<td><input type="text" name="txtFirstName"></td>
+		</tr>
+
+		<tr>
+			<td>Enter Password</td>
+			<td><input type="password" name="txtpassword"></td>
+		</tr>
+
+		<tr>
+			<td>Enter Email</td>
+			<td><input type="Email" name="txtemail"></td>
+		</tr>
+
+		<tr>
+			<td>Male<input type="radio" name="gender" value="male">
+				Female <input type="radio" name="gender" value="Female">
+			</td>
+		</tr>
+
+		<td>Select age Group</td>
+		<td><select name="age">
+				<option value="select" Selected="Selected">Select</option>
+				<option value="" select" selected="21-25">21-25</option>
+				<option value="" select" selected="26-30">26-30</option>
+				<option value="" select" selected="31-31">31-35</option>
+		</select></td>
+
+		<tr>
+			<td><input type="checkbox" name="terms"></td>
+			<td>Agree terms and conditions</td>
+		</tr>
+
+		<tr>
+			<td>
+			<input type="button" value="LOGIN"
+				onclick="location.href='login.html'">
+			</td>
+			<td><input type="Submit" value="REGISTER"></td>
+		</tr>
+		</table>
+	</form>
+</body>
+</html>
