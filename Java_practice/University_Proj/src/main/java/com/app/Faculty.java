@@ -8,17 +8,17 @@ import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-@WebServlet("/serv5")
 /**
- * Servlet implementation class Servlet5
+ * Servlet implementation class Faculty
  */
-public class Servlet5 extends HttpServlet {
+@WebServlet("/faculty")
+public class Faculty extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-       
+
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public Servlet5() {
+    public Faculty() {
         super();
         // TODO Auto-generated constructor stub
     }
@@ -26,15 +26,25 @@ public class Servlet5 extends HttpServlet {
 	/**
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
-	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		response.setContentType("text/html");
-		PrintWriter pw = response.getWriter();
-		String UName = request.getParameter("txtNm");
-		String pwd = request.getParameter("txtPass");
-
-		pw.write(UName + pwd);
-		pw.close();
-	}
+	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		
+		resp.setContentType("text/html");
+		PrintWriter out = resp.getWriter();
+		
+		String user = req.getParameter("user");
+		String pass = req.getParameter("pass");
+		
+		if(user.equals("Bajaj")&&pass.equals("Bajaj123")) {
+			/*
+			 * // out.write("Login sucessfull!!!" );
+			 */			req.getRequestDispatcher("regStudent.html").include(req, resp);
+		}
+		else {
+			//out.write("Invalid UserName or Password!!" );
+			req.getRequestDispatcher("faculty.html").include(req, resp);
+		}
+		
+	} 	
 
 	/**
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)

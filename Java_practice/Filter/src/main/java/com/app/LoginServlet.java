@@ -8,19 +8,19 @@ import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-@WebServlet("/serv5")
 /**
- * Servlet implementation class Servlet5
+ * Servlet implementation class LoginServlet
  */
-public class Servlet5 extends HttpServlet {
+@WebServlet("/loginServlet")
+public class LoginServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public Servlet5() {
+    public LoginServlet() {
         super();
-        // TODO Auto-generated constructor stub
+        System.out.println("LoginServlet");
     }
 
 	/**
@@ -29,12 +29,13 @@ public class Servlet5 extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		response.setContentType("text/html");
 		PrintWriter pw = response.getWriter();
+		pw.write("Login servlet invoke <br>");
+		
 		String UName = request.getParameter("txtNm");
-		String pwd = request.getParameter("txtPass");
-
-		pw.write(UName + pwd);
-		pw.close();
-	}
+		String password = (String) request.getAttribute("pass");
+		pw.write("username = " +UName + "Password"+password);
+		
+		}
 
 	/**
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)

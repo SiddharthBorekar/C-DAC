@@ -42,6 +42,7 @@ public class Servlet4 extends HttpServlet {
 		else {
 			pw.write("Write invalid Password");
 			request.getRequestDispatcher("index.html").include(request, response);
+			
 		}
 			pw.close();
 	}

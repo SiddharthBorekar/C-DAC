@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Student Registration</title>
+
+<link rel="stylesheet" href="student.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <h2>Registration Form</h2>
+
+    <h3>
+        <a href="index.html">Home Page</a>
+    </h3>
+
+    <h3>
+        <a href="faculty.html">Faculty Login</a>
+    </h3>
+
+    <form action="register" method="get">
+
+        <table>
+
+            <tr>
+                <td>Enter Student PRN Number</td>
+                <td><input type="text" name="prn" placeholder="Enter PRN"></td>
+            </tr>
+
+            <tr>
+                <td>Enter Subject 1 Marks</td>
+                <td><input type="number" name="sub1" placeholder="Subject 1"></td>
+            </tr>
+
+            <tr>
+                <td>Enter Subject 2 Marks</td>
+                <td><input type="number" name="sub2" placeholder="Subject 2"></td>
+            </tr>
+
+            <tr>
+                <td>Enter Subject 3 Marks</td>
+                <td><input type="number" name="sub3" placeholder="Subject 3"></td>
+            </tr>
+
+            <tr>
+                <td>
+                    <input type="button" value="Back"
+                    onclick="location.href='faculty.html'">
+                </td>
+
+                <td>
+                    <input type="submit" value="Register">
+                </td>
+            </tr>
+
+        </table>
+
+    </form>
+
+</div>
+
+<script type="text/javascript" src="resource/js/app.js"></script>
+
+</body>
+</html>

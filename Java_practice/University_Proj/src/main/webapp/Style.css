@@ -1,0 +1,56 @@
+@charset "ISO-8859-1";
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI', sans-serif;
+}
+
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-image:url('https://www.ashishbhonde.com/img/bajaj-inst/1.jpg');
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+
+.container{
+    background:rgba(0,0,0,0.65);
+    padding:50px;
+    border-radius:20px;
+    text-align:center;
+    width:420px;
+    box-shadow:0 0 25px rgba(0,0,0,0.5);
+}
+
+h1{
+    color:white;
+    margin-bottom:35px;
+    font-size:38px;
+    letter-spacing:1px;
+}
+
+h3{
+    margin:25px 0;
+}
+
+a{
+    text-decoration:none;
+    color:white;
+    background:linear-gradient(45deg,#007bff,#00c6ff);
+    padding:14px 28px;
+    border-radius:10px;
+    font-size:18px;
+    transition:0.4s;
+    display:inline-block;
+    width:250px;
+}
+
+a:hover{
+    transform:scale(1.05);
+    background:linear-gradient(45deg,#0056b3,#0096c7);
+    box-shadow:0 0 15px rgba(255,255,255,0.5);
+}
