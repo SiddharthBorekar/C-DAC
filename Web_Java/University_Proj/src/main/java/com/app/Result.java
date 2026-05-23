@@ -39,7 +39,7 @@ public class Result extends HttpServlet {
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			System.out.println("Driver Found");
 			Connection con = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/sidd","root","@Joker123");
-			System.out.println("Connection Established!!!!");
+			System.out.println("Connection Established!!!!");//jdbc:mysql://127.0.0.1:3306/sid
 			PreparedStatement pst = con.prepareStatement("select * from Employee where prn=?");
 
 			pst.setString(1, prn);
