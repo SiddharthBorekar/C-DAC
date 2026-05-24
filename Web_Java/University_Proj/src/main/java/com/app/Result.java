@@ -79,7 +79,7 @@ public class Result extends HttpServlet {
 				out.println("display:flex;");
 				out.println("justify-content:center;");
 				out.println("align-items:center;");
-				out.println("background-image:url(\"https://images.unsplash.com/photo-1562774053-701939374585\");");
+				out.println("background-image:url(\"https://thumbs.dreamstime.com/b/b-i-t-collegue-enginnering-bajaj-institude-technology-colleugue-wardha-maharastra-india-best-distict-195148550.jpg\");");
 				out.println("background-size:cover;");
 				out.println("background-position:center;");
 				out.println("position:relative;");
