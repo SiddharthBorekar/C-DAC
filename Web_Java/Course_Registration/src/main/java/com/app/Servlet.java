@@ -31,9 +31,9 @@ public class Servlet extends HttpServlet {
 		String email = request.getParameter("email");
 		String password = request.getParameter("password");
 		String course = request.getParameter("course");
-		
-		try {
-			Class.forName("com.mysql.cj.jdbc.Driver");
+			try {
+				Class.forName("com.mysql.cj.jdbc.Driver");
+			 
 			Connection con = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/Registration","root","@Joker123");
 			PreparedStatement pst = con.prepareStatement("insert into Student(name,email,password,course)"
 					+ "values(?,?,?,?)");
@@ -64,16 +64,13 @@ public class Servlet extends HttpServlet {
 
             con.close();
 			
-		} catch (ClassNotFoundException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} catch (SQLException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+		} 
+			catch (Exception e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
 		}
 		
-		
-	}
 
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
