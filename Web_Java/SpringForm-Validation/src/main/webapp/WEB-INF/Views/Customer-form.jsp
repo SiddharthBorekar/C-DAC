@@ -21,7 +21,7 @@
 				<td>Enter FirstName:</td>
 				<td><form:input path="firstName" /></td>
 			</tr>
-
+			
 			<tr>
 				<td>Enter LastName:</td>
 				<td><form:input path="lastName" /> <form:errors path="lastName"

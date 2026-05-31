@@ -1,10 +1,10 @@
-package com.app.dao;
+package com.app.service;
 
 import java.util.List;
 
 import com.app.entity.Customer;
 
-public interface CustomerDAO {
+public interface CustomerService {
 
 	public List<Customer> getCustomers();
 
@@ -13,4 +13,5 @@ public interface CustomerDAO {
 	public Customer getCustomer(int theId);
 
 	public void deleteCustomer(int theId);
+
 }
