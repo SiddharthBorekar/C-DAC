@@ -3,7 +3,12 @@
   <groupId>com.app</groupId>
   <artifactId>SessionTracking</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <packaging>war</packaging>
+  <packaging>war</packaging>4
+  
+  <dependencies>
+	  
+	  
+  </dependencies>
   <build>
     <plugins>
       <plugin>

@@ -33,6 +33,17 @@
 			<scope>compile</scope>
 		</dependency>
 
+<!-- Source: https://mvnrepository.com/artifact/jakarta.servlet.jsp.jstl/jakarta.servlet.jsp.jstl-api -->
+<dependency>
+    <groupId>jakarta.servlet.jsp.jstl</groupId>
+    <artifactId>jakarta.servlet.jsp.jstl-api</artifactId>
+    <version>3.0.0</version>
+    <scope>compile</scope>
+</dependency>
+
+
+
+
 	</dependencies>
 	<build>
 		<plugins>
