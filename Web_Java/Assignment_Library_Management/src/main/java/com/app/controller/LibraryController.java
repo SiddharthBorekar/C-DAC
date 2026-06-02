@@ -27,7 +27,7 @@ public class LibraryController {
 		List<Library> theLibrary=libraryService.getLibrary();
 		System.out.println(theLibrary);
 		theModel.addAttribute("listCust",theLibrary);
-		return "list-library";
+		return "BooksList";
 		
 	}
 	@GetMapping("/showForm")

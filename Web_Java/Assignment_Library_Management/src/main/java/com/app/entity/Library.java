@@ -7,15 +7,19 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
+import lombok.ToString;
 
 @Data
 @Entity
 @Table(name = "library")
+@Getter
+@Setter
 public class Library {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	@Column(name = "id")
 	private int id;
 	@Column(name = "first_name")
 	private String firstName;
@@ -24,6 +28,11 @@ public class Library {
 	@Column(name = "email")
 	private String email;
 
+
+	public Library() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
 	
 	public Library(String firstName, String lastName, String email) {
 		super();
@@ -32,10 +41,7 @@ public class Library {
 		this.email = email;
 	}
 
-
-	public Library() {
-		super();
-		// TODO Auto-generated constructor stub
-	}
+	
+	
 
 }

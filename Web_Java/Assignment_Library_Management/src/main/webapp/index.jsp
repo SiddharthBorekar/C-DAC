@@ -11,16 +11,16 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-}
+}	
 
 body {
 	height: 100vh;
 	background: url('resources/images/library.jpg') no-repeat center center/cover;
-	font-family: Arial, sans-serif;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
+		font-family: Arial, sans-serif;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
 
 .overlay {
 	background: rgba(0, 0, 0, 0.6);
@@ -73,7 +73,7 @@ body {
 			<h1>Welcome To Library</h1>
 			<p>Library Management System</p>
 
-			<a href="books/list" class="btn">Explore Books</a>
+			<a href="library/list" class="btn">Explore Books</a>
 		</div>
 	</div>
 
