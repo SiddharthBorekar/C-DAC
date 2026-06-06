@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Customer Login</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #f4f4f0;
+      font-family: system-ui, sans-serif;
+    }
+
+    .login-card {
+      background: #fff;
+      border: 1px solid #e5e5e0;
+      border-radius: 12px;
+      padding: 2rem;
+      width: 100%;
+      max-width: 380px;
+    }
+
+    .login-logo {
+      width: 44px; height: 44px;
+      background: #e6f1fb;
+      border-radius: 8px;
+      display: flex; align-items: center; justify-content: center;
+      margin: 0 auto 1.25rem;
+      font-size: 22px;
+    }
+
+    h1 {
+      font-size: 20px; font-weight: 600;
+      text-align: center;
+      margin-bottom: 0.25rem;
+      color: #111;
+    }
+
+    .subtitle {
+      font-size: 13px; color: #666;
+      text-align: center;
+      margin-bottom: 1.5rem;
+    }
+
+    .error-box {
+      background: #fcebeb;
+      border: 1px solid #f09595;
+      border-radius: 8px;
+      padding: 10px 14px;
+      margin-bottom: 1.25rem;
+      font-size: 13px;
+      color: #a32d2d;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .field { margin-bottom: 1rem; }
+
+    .field label {
+      display: block;
+      font-size: 13px; font-weight: 500;
+      color: #444;
+      margin-bottom: 6px;
+    }
+
+    .field input {
+      width: 100%;
+      padding: 0 12px;
+      height: 40px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      font-size: 14px;
+      outline: none;
+      transition: border-color 0.2s;
+    }
+
+    .field input:focus { border-color: #378add; }
+
+    .btn-login {
+      width: 100%; height: 40px;
+      background: #1a73e8;
+      border: none; border-radius: 8px;
+      color: #fff;
+      font-size: 14px; font-weight: 500;
+      cursor: pointer;
+      margin-top: 0.5rem;
+    }
+
+    .btn-login:hover { background: #1558b0; }
+
+    .divider {
+      border: none;
+      border-top: 1px solid #eee;
+      margin: 1.5rem 0 1rem;
+    }
+
+    .footer-link {
+      text-align: center;
+      font-size: 12px; color: #888;
+    }
+
+    .footer-link a { color: #1a73e8; text-decoration: none; }
+  </style>
+</head>
+<body>
+
+  <div class="login-card">
+    <div class="login-logo">🏪</div>
+    <h1>Welcome back</h1>
+    <p class="subtitle">Sign in to your account</p>
+
+    <form action="#" th:action="@{/authenticateTheUser}" method="post">
+
+      <div class="error-box" th:if="${param.error}">
+        ⚠ Invalid username or password. Please try again.
+      </div>
+
+      <div class="field">
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" placeholder="Enter your username">
+      </div>
+
+      <div class="field">
+        <label for="password">Password</label>
+        <!-- Fixed: was name="username", now name="password" -->
+        <input type="password" id="password" name="password" placeholder="Enter your password">
+      </div>
+
+      <button type="submit" class="btn-login">Sign in</button>
+    </form>
+
+    <hr class="divider">
+    <p class="footer-link"><a href="#">Forgot your password?</a></p>
+  </div>
+
+</body>
+</html>
