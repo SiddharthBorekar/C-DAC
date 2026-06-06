@@ -8,7 +8,7 @@ public class User {
 	public User() {
 		super();
 	}
-
+	
 	public User(int id, String name, String email) {
 		super();
 		this.id = id;

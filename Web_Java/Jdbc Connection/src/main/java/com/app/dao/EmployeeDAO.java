@@ -10,7 +10,7 @@ import com.app.Employee;
 public class EmployeeDAO {
 
 	public static Connection getconnection() throws ClassNotFoundException, SQLException {
-		Class.forName("com.mysql.cj.jdbc.Driver");
+		Class.forName("com.mysql.cj.jdbc.Driver");	
 		System.out.println("Driver Found");
 		Connection conn = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/employee", "root", "password");
 		System.out.println("Connection Established");
