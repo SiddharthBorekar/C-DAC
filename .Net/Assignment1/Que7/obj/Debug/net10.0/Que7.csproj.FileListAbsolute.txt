@@ -1,0 +1,15 @@
+D:\C-DAC\.Net\Assignment1\Que7\bin\Debug\net10.0\Que7.exe
+D:\C-DAC\.Net\Assignment1\Que7\bin\Debug\net10.0\Que7.deps.json
+D:\C-DAC\.Net\Assignment1\Que7\bin\Debug\net10.0\Que7.runtimeconfig.json
+D:\C-DAC\.Net\Assignment1\Que7\bin\Debug\net10.0\Que7.dll
+D:\C-DAC\.Net\Assignment1\Que7\bin\Debug\net10.0\Que7.pdb
+D:\C-DAC\.Net\Assignment1\Que7\obj\Debug\net10.0\Que7.GeneratedMSBuildEditorConfig.editorconfig
+D:\C-DAC\.Net\Assignment1\Que7\obj\Debug\net10.0\Que7.AssemblyInfoInputs.cache
+D:\C-DAC\.Net\Assignment1\Que7\obj\Debug\net10.0\Que7.AssemblyInfo.cs
+D:\C-DAC\.Net\Assignment1\Que7\obj\Debug\net10.0\Que7.csproj.CoreCompileInputs.cache
+D:\C-DAC\.Net\Assignment1\Que7\obj\Debug\net10.0\Que7.sourcelink.json
+D:\C-DAC\.Net\Assignment1\Que7\obj\Debug\net10.0\Que7.dll
+D:\C-DAC\.Net\Assignment1\Que7\obj\Debug\net10.0\refint\Que7.dll
+D:\C-DAC\.Net\Assignment1\Que7\obj\Debug\net10.0\Que7.pdb
+D:\C-DAC\.Net\Assignment1\Que7\obj\Debug\net10.0\Que7.genruntimeconfig.cache
+D:\C-DAC\.Net\Assignment1\Que7\obj\Debug\net10.0\ref\Que7.dll

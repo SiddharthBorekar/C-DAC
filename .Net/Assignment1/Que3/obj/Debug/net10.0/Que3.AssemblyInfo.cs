@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Que3")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+48c4fcd72aab21016d5ac3dcc7fd13cbbcc017c0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c5e5b98155afe6244c9506446e6d6a766674d365")]
 [assembly: System.Reflection.AssemblyProductAttribute("Que3")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Que3")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

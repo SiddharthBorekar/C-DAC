@@ -6,7 +6,10 @@ namespace Que6
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Console.WriteLine("Enter a Character :");
+            char C = Convert.ToChar(Console.Read());
+
+            Console.WriteLine(Convert.ToInt32(C));
         }
     }
 }
