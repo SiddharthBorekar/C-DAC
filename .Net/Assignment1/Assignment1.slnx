@@ -6,6 +6,9 @@
   <Project Path="Que13/Que13.csproj" Id="204d242a-d6f7-405c-a66d-10daf0c4a771" />
   <Project Path="Que14/Que14.csproj" Id="38cdf48e-fe94-48dc-a05a-4b641948bbb8" />
   <Project Path="Que15/Que15.csproj" Id="11e7d5e1-0ac5-4c9d-b595-8b7431c9a089" />
+  <Project Path="Que16/Que16.csproj" Id="7a22fa4a-deff-4a13-871f-2e262a8691b8" />
+  <Project Path="Que18/Que18.csproj" Id="d387aae2-9744-4198-9ab4-2d01e7014cd4" />
+  <Project Path="Que19/Que19.csproj" Id="45fb2846-685b-48d3-a20a-40773e2994c7" />
   <Project Path="Que2/Que2.csproj" />
   <Project Path="Que3/Que3.csproj" />
   <Project Path="Que4/Que4.csproj" />
