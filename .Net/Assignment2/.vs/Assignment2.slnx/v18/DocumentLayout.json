@@ -1,16 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\C-DAC\\.Net\\Assignment2\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{1E945FB4-9BA9-4E09-A1C4-D491972FD10F}|Que1\\Que1.csproj|d:\\c-dac\\.net\\assignment2\\que1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1E945FB4-9BA9-4E09-A1C4-D491972FD10F}|Que1\\Que1.csproj|solutionrelative:que1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D680C486-C43D-8ED7-FB1F-8785C5E8498E}|Assignment2\\Assignment2.csproj|d:\\c-dac\\.net\\assignment2\\assignment2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D680C486-C43D-8ED7-FB1F-8785C5E8498E}|Assignment2\\Assignment2.csproj|solutionrelative:assignment2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -18,37 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\C-DAC\\.Net\\Assignment2\\Que1\\Program.cs",
-              "RelativeDocumentMoniker": "Que1\\Program.cs",
-              "ToolTip": "D:\\C-DAC\\.Net\\Assignment2\\Que1\\Program.cs*",
-              "RelativeToolTip": "Que1\\Program.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-20T08:18:39.597Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\C-DAC\\.Net\\Assignment2\\Assignment2\\Program.cs",
-              "RelativeDocumentMoniker": "Assignment2\\Program.cs",
-              "ToolTip": "D:\\C-DAC\\.Net\\Assignment2\\Assignment2\\Program.cs",
-              "RelativeToolTip": "Assignment2\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-20T08:16:58.323Z",
-              "EditorCaption": ""
             }
           ]
         }

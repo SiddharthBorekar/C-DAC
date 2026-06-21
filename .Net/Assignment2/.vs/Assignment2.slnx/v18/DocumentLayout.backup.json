@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\C-DAC\\.Net\\Assignment2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BA1447FE-1518-4EB5-BEEA-982C9B1460C4}|Assignment2\\Assignment2.csproj|d:\\c-dac\\.net\\assignment2\\assignment2\\assignment2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{BA1447FE-1518-4EB5-BEEA-982C9B1460C4}|Assignment2\\Assignment2.csproj|solutionrelative:assignment2\\assignment2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{1E945FB4-9BA9-4E09-A1C4-D491972FD10F}|Que1\\Que1.csproj|d:\\c-dac\\.net\\assignment2\\que1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E945FB4-9BA9-4E09-A1C4-D491972FD10F}|Que1\\Que1.csproj|solutionrelative:que1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA1447FE-1518-4EB5-BEEA-982C9B1460C4}|Assignment2\\Assignment2.csproj|d:\\c-dac\\.net\\assignment2\\assignment2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA1447FE-1518-4EB5-BEEA-982C9B1460C4}|Assignment2\\Assignment2.csproj|solutionrelative:assignment2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D680C486-C43D-8ED7-FB1F-8785C5E8498E}|Assignment2\\Assignment2.csproj|d:\\c-dac\\.net\\assignment2\\assignment2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D680C486-C43D-8ED7-FB1F-8785C5E8498E}|Assignment2\\Assignment2.csproj|solutionrelative:assignment2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,14 +27,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Assignment2",
-              "DocumentMoniker": "D:\\C-DAC\\.Net\\Assignment2\\Assignment2\\Assignment2.csproj",
-              "RelativeDocumentMoniker": "Assignment2\\Assignment2.csproj",
-              "ToolTip": "D:\\C-DAC\\.Net\\Assignment2\\Assignment2\\Assignment2.csproj",
-              "RelativeToolTip": "Assignment2\\Assignment2.csproj",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-06-20T08:17:42.937Z",
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\C-DAC\\.Net\\Assignment2\\Que1\\Program.cs",
+              "RelativeDocumentMoniker": "Que1\\Program.cs",
+              "ToolTip": "D:\\C-DAC\\.Net\\Assignment2\\Que1\\Program.cs*",
+              "RelativeToolTip": "Que1\\Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-20T08:18:39.597Z",
               "EditorCaption": ""
             },
             {
@@ -45,7 +45,7 @@
               "RelativeDocumentMoniker": "Assignment2\\Program.cs",
               "ToolTip": "D:\\C-DAC\\.Net\\Assignment2\\Assignment2\\Program.cs",
               "RelativeToolTip": "Assignment2\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-20T08:16:58.323Z",
               "EditorCaption": ""
