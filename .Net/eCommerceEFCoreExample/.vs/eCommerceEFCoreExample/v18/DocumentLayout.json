@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\C-DAC\\.Net\\eCommerceEFCoreExample\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DAE9718F-F30B-4FC1-AAC1-434FCCC9CA6E}|eCommerceEFCoreExample\\eCommerceEFCoreExample.csproj|d:\\c-dac\\.net\\ecommerceefcoreexample\\ecommerceefcoreexample\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAE9718F-F30B-4FC1-AAC1-434FCCC9CA6E}|eCommerceEFCoreExample\\eCommerceEFCoreExample.csproj|solutionrelative:ecommerceefcoreexample\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAE9718F-F30B-4FC1-AAC1-434FCCC9CA6E}|eCommerceEFCoreExample\\eCommerceEFCoreExample.csproj|d:\\c-dac\\.net\\ecommerceefcoreexample\\ecommerceefcoreexample\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAE9718F-F30B-4FC1-AAC1-434FCCC9CA6E}|eCommerceEFCoreExample\\eCommerceEFCoreExample.csproj|solutionrelative:ecommerceefcoreexample\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAE9718F-F30B-4FC1-AAC1-434FCCC9CA6E}|eCommerceEFCoreExample\\eCommerceEFCoreExample.csproj|d:\\c-dac\\.net\\ecommerceefcoreexample\\ecommerceefcoreexample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAE9718F-F30B-4FC1-AAC1-434FCCC9CA6E}|eCommerceEFCoreExample\\eCommerceEFCoreExample.csproj|solutionrelative:ecommerceefcoreexample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAE9718F-F30B-4FC1-AAC1-434FCCC9CA6E}|eCommerceEFCoreExample\\eCommerceEFCoreExample.csproj|d:\\c-dac\\.net\\ecommerceefcoreexample\\ecommerceefcoreexample\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAE9718F-F30B-4FC1-AAC1-434FCCC9CA6E}|eCommerceEFCoreExample\\eCommerceEFCoreExample.csproj|solutionrelative:ecommerceefcoreexample\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "D:\\C-DAC\\.Net\\eCommerceEFCoreExample\\eCommerceEFCoreExample\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "eCommerceEFCoreExample\\Models\\Customer.cs",
+              "ToolTip": "D:\\C-DAC\\.Net\\eCommerceEFCoreExample\\eCommerceEFCoreExample\\Models\\Customer.cs",
+              "RelativeToolTip": "eCommerceEFCoreExample\\Models\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-21T15:00:17.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\C-DAC\\.Net\\eCommerceEFCoreExample\\eCommerceEFCoreExample\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "eCommerceEFCoreExample\\Models\\Product.cs",
+              "ToolTip": "D:\\C-DAC\\.Net\\eCommerceEFCoreExample\\eCommerceEFCoreExample\\Models\\Product.cs",
+              "RelativeToolTip": "eCommerceEFCoreExample\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-21T15:00:17.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\C-DAC\\.Net\\eCommerceEFCoreExample\\eCommerceEFCoreExample\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "eCommerceEFCoreExample\\Models\\Category.cs",
+              "ToolTip": "D:\\C-DAC\\.Net\\eCommerceEFCoreExample\\eCommerceEFCoreExample\\Models\\Category.cs",
+              "RelativeToolTip": "eCommerceEFCoreExample\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-21T15:00:17.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\C-DAC\\.Net\\eCommerceEFCoreExample\\eCommerceEFCoreExample\\Program.cs",
+              "RelativeDocumentMoniker": "eCommerceEFCoreExample\\Program.cs",
+              "ToolTip": "D:\\C-DAC\\.Net\\eCommerceEFCoreExample\\eCommerceEFCoreExample\\Program.cs",
+              "RelativeToolTip": "eCommerceEFCoreExample\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-21T15:00:17.396Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
