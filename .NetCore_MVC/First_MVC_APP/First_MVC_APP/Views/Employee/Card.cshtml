@@ -1,0 +1,15 @@
+﻿@model List<Employee>
+
+<h1>Employee Card</h1>
+
+@foreach (Employee emp in Model)
+{
+    <div class="card" style="width: 18rem;">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5> Name @emp.Employee_Name</h5>
+            <p> Salary @emp.Employee_Salary</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+    </div>
+}
