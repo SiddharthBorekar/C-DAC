@@ -4,7 +4,7 @@ namespace First_MVC_APP.Models
 {
     public class Supplies
     {
-        public String name { get; set; }
+        public string name { get; set; } = string.Empty;
         public int bounty { get; set; }
 
     }

@@ -3,44 +3,64 @@
   "WorkspaceRootPath": "D:\\C-DAC\\.NetCore_MVC\\First_MVC_APP\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4A73328E-1F7B-7E85-DBC5-4397DDBB554C}|First_MVC_APP\\First_MVC_APP.csproj|d:\\c-dac\\.netcore_mvc\\first_mvc_app\\first_mvc_app\\views\\home\\employee.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4A73328E-1F7B-7E85-DBC5-4397DDBB554C}|First_MVC_APP\\First_MVC_APP.csproj|solutionrelative:first_mvc_app\\views\\home\\employee.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A73328E-1F7B-7E85-DBC5-4397DDBB554C}|First_MVC_APP\\First_MVC_APP.csproj|d:\\c-dac\\.netcore_mvc\\first_mvc_app\\first_mvc_app\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4A73328E-1F7B-7E85-DBC5-4397DDBB554C}|First_MVC_APP\\First_MVC_APP.csproj|solutionrelative:first_mvc_app\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A73328E-1F7B-7E85-DBC5-4397DDBB554C}|First_MVC_APP\\First_MVC_APP.csproj|d:\\c-dac\\.netcore_mvc\\first_mvc_app\\first_mvc_app\\views\\employee\\card.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4A73328E-1F7B-7E85-DBC5-4397DDBB554C}|First_MVC_APP\\First_MVC_APP.csproj|solutionrelative:first_mvc_app\\views\\employee\\card.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A73328E-1F7B-7E85-DBC5-4397DDBB554C}|First_MVC_APP\\First_MVC_APP.csproj|d:\\c-dac\\.netcore_mvc\\first_mvc_app\\first_mvc_app\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A73328E-1F7B-7E85-DBC5-4397DDBB554C}|First_MVC_APP\\First_MVC_APP.csproj|solutionrelative:first_mvc_app\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A73328E-1F7B-7E85-DBC5-4397DDBB554C}|First_MVC_APP\\First_MVC_APP.csproj|d:\\c-dac\\.netcore_mvc\\first_mvc_app\\first_mvc_app\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4A73328E-1F7B-7E85-DBC5-4397DDBB554C}|First_MVC_APP\\First_MVC_APP.csproj|solutionrelative:first_mvc_app\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4A73328E-1F7B-7E85-DBC5-4397DDBB554C}|First_MVC_APP\\First_MVC_APP.csproj|d:\\c-dac\\.netcore_mvc\\first_mvc_app\\first_mvc_app\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A73328E-1F7B-7E85-DBC5-4397DDBB554C}|First_MVC_APP\\First_MVC_APP.csproj|solutionrelative:first_mvc_app\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4A73328E-1F7B-7E85-DBC5-4397DDBB554C}|First_MVC_APP\\First_MVC_APP.csproj|d:\\c-dac\\.netcore_mvc\\first_mvc_app\\first_mvc_app\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4A73328E-1F7B-7E85-DBC5-4397DDBB554C}|First_MVC_APP\\First_MVC_APP.csproj|solutionrelative:first_mvc_app\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A73328E-1F7B-7E85-DBC5-4397DDBB554C}|First_MVC_APP\\First_MVC_APP.csproj|d:\\c-dac\\.netcore_mvc\\first_mvc_app\\first_mvc_app\\models\\supplies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A73328E-1F7B-7E85-DBC5-4397DDBB554C}|First_MVC_APP\\First_MVC_APP.csproj|solutionrelative:first_mvc_app\\models\\supplies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4A73328E-1F7B-7E85-DBC5-4397DDBB554C}|First_MVC_APP\\First_MVC_APP.csproj|d:\\c-dac\\.netcore_mvc\\first_mvc_app\\first_mvc_app\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A73328E-1F7B-7E85-DBC5-4397DDBB554C}|First_MVC_APP\\First_MVC_APP.csproj|solutionrelative:first_mvc_app\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A73328E-1F7B-7E85-DBC5-4397DDBB554C}|First_MVC_APP\\First_MVC_APP.csproj|d:\\c-dac\\.netcore_mvc\\first_mvc_app\\first_mvc_app\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A73328E-1F7B-7E85-DBC5-4397DDBB554C}|First_MVC_APP\\First_MVC_APP.csproj|solutionrelative:first_mvc_app\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4A73328E-1F7B-7E85-DBC5-4397DDBB554C}|First_MVC_APP\\First_MVC_APP.csproj|d:\\c-dac\\.netcore_mvc\\first_mvc_app\\first_mvc_app\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A73328E-1F7B-7E85-DBC5-4397DDBB554C}|First_MVC_APP\\First_MVC_APP.csproj|solutionrelative:first_mvc_app\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A73328E-1F7B-7E85-DBC5-4397DDBB554C}|First_MVC_APP\\First_MVC_APP.csproj|d:\\c-dac\\.netcore_mvc\\first_mvc_app\\first_mvc_app\\views\\home\\supplies.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A73328E-1F7B-7E85-DBC5-4397DDBB554C}|First_MVC_APP\\First_MVC_APP.csproj|solutionrelative:first_mvc_app\\views\\home\\supplies.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A73328E-1F7B-7E85-DBC5-4397DDBB554C}|First_MVC_APP\\First_MVC_APP.csproj|d:\\c-dac\\.netcore_mvc\\first_mvc_app\\first_mvc_app\\views\\home\\employee.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A73328E-1F7B-7E85-DBC5-4397DDBB554C}|First_MVC_APP\\First_MVC_APP.csproj|solutionrelative:first_mvc_app\\views\\home\\employee.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A73328E-1F7B-7E85-DBC5-4397DDBB554C}|First_MVC_APP\\First_MVC_APP.csproj|d:\\c-dac\\.netcore_mvc\\first_mvc_app\\first_mvc_app\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A73328E-1F7B-7E85-DBC5-4397DDBB554C}|First_MVC_APP\\First_MVC_APP.csproj|solutionrelative:first_mvc_app\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A73328E-1F7B-7E85-DBC5-4397DDBB554C}|First_MVC_APP\\First_MVC_APP.csproj|d:\\c-dac\\.netcore_mvc\\first_mvc_app\\first_mvc_app\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A73328E-1F7B-7E85-DBC5-4397DDBB554C}|First_MVC_APP\\First_MVC_APP.csproj|solutionrelative:first_mvc_app\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4A73328E-1F7B-7E85-DBC5-4397DDBB554C}|First_MVC_APP\\First_MVC_APP.csproj|d:\\c-dac\\.netcore_mvc\\first_mvc_app\\first_mvc_app\\controllers\\suppliescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4A73328E-1F7B-7E85-DBC5-4397DDBB554C}|First_MVC_APP\\First_MVC_APP.csproj|solutionrelative:first_mvc_app\\controllers\\suppliescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{4A73328E-1F7B-7E85-DBC5-4397DDBB554C}|First_MVC_APP\\First_MVC_APP.csproj|d:\\c-dac\\.netcore_mvc\\first_mvc_app\\first_mvc_app\\views\\supplies\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A73328E-1F7B-7E85-DBC5-4397DDBB554C}|First_MVC_APP\\First_MVC_APP.csproj|solutionrelative:first_mvc_app\\views\\supplies\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A73328E-1F7B-7E85-DBC5-4397DDBB554C}|First_MVC_APP\\First_MVC_APP.csproj|d:\\c-dac\\.netcore_mvc\\first_mvc_app\\first_mvc_app\\views\\employee\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A73328E-1F7B-7E85-DBC5-4397DDBB554C}|First_MVC_APP\\First_MVC_APP.csproj|solutionrelative:first_mvc_app\\views\\employee\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A73328E-1F7B-7E85-DBC5-4397DDBB554C}|First_MVC_APP\\First_MVC_APP.csproj|d:\\c-dac\\.netcore_mvc\\first_mvc_app\\first_mvc_app\\models\\supplies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A73328E-1F7B-7E85-DBC5-4397DDBB554C}|First_MVC_APP\\First_MVC_APP.csproj|solutionrelative:first_mvc_app\\models\\supplies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4A73328E-1F7B-7E85-DBC5-4397DDBB554C}|First_MVC_APP\\First_MVC_APP.csproj|d:\\c-dac\\.netcore_mvc\\first_mvc_app\\first_mvc_app\\views\\supplies\\card.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{4A73328E-1F7B-7E85-DBC5-4397DDBB554C}|First_MVC_APP\\First_MVC_APP.csproj|solutionrelative:first_mvc_app\\views\\supplies\\card.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A73328E-1F7B-7E85-DBC5-4397DDBB554C}|First_MVC_APP\\First_MVC_APP.csproj|d:\\c-dac\\.netcore_mvc\\first_mvc_app\\first_mvc_app\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A73328E-1F7B-7E85-DBC5-4397DDBB554C}|First_MVC_APP\\First_MVC_APP.csproj|solutionrelative:first_mvc_app\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A73328E-1F7B-7E85-DBC5-4397DDBB554C}|First_MVC_APP\\First_MVC_APP.csproj|d:\\c-dac\\.netcore_mvc\\first_mvc_app\\first_mvc_app\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A73328E-1F7B-7E85-DBC5-4397DDBB554C}|First_MVC_APP\\First_MVC_APP.csproj|solutionrelative:first_mvc_app\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -49,16 +69,38 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 168,
-          "SelectedChildIndex": 2,
+          "DockedWidth": 241,
+          "SelectedChildIndex": 5,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Supplies.cshtml",
+              "DocumentMoniker": "D:\\C-DAC\\.NetCore_MVC\\First_MVC_APP\\First_MVC_APP\\Views\\Home\\Supplies.cshtml",
+              "RelativeDocumentMoniker": "First_MVC_APP\\Views\\Home\\Supplies.cshtml",
+              "ToolTip": "D:\\C-DAC\\.NetCore_MVC\\First_MVC_APP\\First_MVC_APP\\Views\\Home\\Supplies.cshtml",
+              "RelativeToolTip": "First_MVC_APP\\Views\\Home\\Supplies.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-24T11:08:45.653Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
+              "Title": "Employee.cshtml",
+              "DocumentMoniker": "D:\\C-DAC\\.NetCore_MVC\\First_MVC_APP\\First_MVC_APP\\Views\\Home\\Employee.cshtml",
+              "RelativeDocumentMoniker": "First_MVC_APP\\Views\\Home\\Employee.cshtml",
+              "ToolTip": "D:\\C-DAC\\.NetCore_MVC\\First_MVC_APP\\First_MVC_APP\\Views\\Home\\Employee.cshtml",
+              "RelativeToolTip": "First_MVC_APP\\Views\\Home\\Employee.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-24T11:06:33.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "D:\\C-DAC\\.NetCore_MVC\\First_MVC_APP\\First_MVC_APP\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "First_MVC_APP\\Views\\Home\\Privacy.cshtml",
@@ -66,72 +108,102 @@
               "RelativeToolTip": "First_MVC_APP\\Views\\Home\\Privacy.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-23T12:16:45.074Z",
+              "WhenOpened": "2026-06-24T10:28:12.494Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Employee.cshtml",
-              "DocumentMoniker": "D:\\C-DAC\\.NetCore_MVC\\First_MVC_APP\\First_MVC_APP\\Views\\Home\\Employee.cshtml",
-              "RelativeDocumentMoniker": "First_MVC_APP\\Views\\Home\\Employee.cshtml",
-              "ToolTip": "D:\\C-DAC\\.NetCore_MVC\\First_MVC_APP\\First_MVC_APP\\Views\\Home\\Employee.cshtml",
-              "RelativeToolTip": "First_MVC_APP\\Views\\Home\\Employee.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-23T12:16:23.919Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "D:\\C-DAC\\.NetCore_MVC\\First_MVC_APP\\First_MVC_APP\\Models\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "First_MVC_APP\\Models\\ErrorViewModel.cs",
-              "ToolTip": "D:\\C-DAC\\.NetCore_MVC\\First_MVC_APP\\First_MVC_APP\\Models\\ErrorViewModel.cs",
-              "RelativeToolTip": "First_MVC_APP\\Models\\ErrorViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-23T12:15:05.366Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\C-DAC\\.NetCore_MVC\\First_MVC_APP\\First_MVC_APP\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "First_MVC_APP\\Views\\Home\\Index.cshtml",
               "ToolTip": "D:\\C-DAC\\.NetCore_MVC\\First_MVC_APP\\First_MVC_APP\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "First_MVC_APP\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-23T12:14:28.374Z",
+              "WhenOpened": "2026-06-24T10:27:59.618Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\C-DAC\\.NetCore_MVC\\First_MVC_APP\\First_MVC_APP\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "First_MVC_APP\\Controllers\\HomeController.cs",
               "ToolTip": "D:\\C-DAC\\.NetCore_MVC\\First_MVC_APP\\First_MVC_APP\\Controllers\\HomeController.cs",
               "RelativeToolTip": "First_MVC_APP\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-23T12:14:18.255Z",
+              "WhenOpened": "2026-06-24T10:22:55.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\C-DAC\\.NetCore_MVC\\First_MVC_APP\\First_MVC_APP\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "First_MVC_APP\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\C-DAC\\.NetCore_MVC\\First_MVC_APP\\First_MVC_APP\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "First_MVC_APP\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABwAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-24T10:16:13.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "D:\\C-DAC\\.NetCore_MVC\\First_MVC_APP\\First_MVC_APP\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "First_MVC_APP\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "D:\\C-DAC\\.NetCore_MVC\\First_MVC_APP\\First_MVC_APP\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "First_MVC_APP\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-24T10:16:10.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "D:\\C-DAC\\.NetCore_MVC\\First_MVC_APP\\First_MVC_APP\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "First_MVC_APP\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "D:\\C-DAC\\.NetCore_MVC\\First_MVC_APP\\First_MVC_APP\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "First_MVC_APP\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-24T10:16:08.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "D:\\C-DAC\\.NetCore_MVC\\First_MVC_APP\\First_MVC_APP\\Views\\Employee\\List.cshtml",
+              "RelativeDocumentMoniker": "First_MVC_APP\\Views\\Employee\\List.cshtml",
+              "ToolTip": "D:\\C-DAC\\.NetCore_MVC\\First_MVC_APP\\First_MVC_APP\\Views\\Employee\\List.cshtml",
+              "RelativeToolTip": "First_MVC_APP\\Views\\Employee\\List.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-24T09:55:06.282Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "Card.cshtml",
-              "DocumentMoniker": "D:\\C-DAC\\.NetCore_MVC\\First_MVC_APP\\First_MVC_APP\\Views\\Supplies\\Card.cshtml",
-              "RelativeDocumentMoniker": "First_MVC_APP\\Views\\Supplies\\Card.cshtml",
-              "ToolTip": "D:\\C-DAC\\.NetCore_MVC\\First_MVC_APP\\First_MVC_APP\\Views\\Supplies\\Card.cshtml",
-              "RelativeToolTip": "First_MVC_APP\\Views\\Supplies\\Card.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Title": "List.cshtml",
+              "DocumentMoniker": "D:\\C-DAC\\.NetCore_MVC\\First_MVC_APP\\First_MVC_APP\\Views\\Supplies\\List.cshtml",
+              "RelativeDocumentMoniker": "First_MVC_APP\\Views\\Supplies\\List.cshtml",
+              "ToolTip": "D:\\C-DAC\\.NetCore_MVC\\First_MVC_APP\\First_MVC_APP\\Views\\Supplies\\List.cshtml",
+              "RelativeToolTip": "First_MVC_APP\\Views\\Supplies\\List.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-23T11:59:42.683Z",
+              "WhenOpened": "2026-06-24T09:41:51Z",
               "EditorCaption": ""
             },
             {
@@ -142,48 +214,61 @@
               "RelativeDocumentMoniker": "First_MVC_APP\\Controllers\\SuppliesController.cs",
               "ToolTip": "D:\\C-DAC\\.NetCore_MVC\\First_MVC_APP\\First_MVC_APP\\Controllers\\SuppliesController.cs",
               "RelativeToolTip": "First_MVC_APP\\Controllers\\SuppliesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA5wB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-23T11:47:17.073Z",
+              "WhenOpened": "2026-06-24T09:36:11.368Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Supplies.cs",
-              "DocumentMoniker": "D:\\C-DAC\\.NetCore_MVC\\First_MVC_APP\\First_MVC_APP\\Models\\Supplies.cs",
-              "RelativeDocumentMoniker": "First_MVC_APP\\Models\\Supplies.cs",
-              "ToolTip": "D:\\C-DAC\\.NetCore_MVC\\First_MVC_APP\\First_MVC_APP\\Models\\Supplies.cs",
-              "RelativeToolTip": "First_MVC_APP\\Models\\Supplies.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-23T11:33:07.663Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 14,
               "Title": "Employee.cs",
               "DocumentMoniker": "D:\\C-DAC\\.NetCore_MVC\\First_MVC_APP\\First_MVC_APP\\Models\\Employee.cs",
               "RelativeDocumentMoniker": "First_MVC_APP\\Models\\Employee.cs",
               "ToolTip": "D:\\C-DAC\\.NetCore_MVC\\First_MVC_APP\\First_MVC_APP\\Models\\Employee.cs",
               "RelativeToolTip": "First_MVC_APP\\Models\\Employee.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-23T11:25:54.804Z",
+              "WhenOpened": "2026-06-24T09:34:07.826Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 13,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "D:\\C-DAC\\.NetCore_MVC\\First_MVC_APP\\First_MVC_APP\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "First_MVC_APP\\Controllers\\EmployeeController.cs",
+              "ToolTip": "D:\\C-DAC\\.NetCore_MVC\\First_MVC_APP\\First_MVC_APP\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "First_MVC_APP\\Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAcwCIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T09:25:36.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "Card.cshtml",
-              "DocumentMoniker": "D:\\C-DAC\\.NetCore_MVC\\First_MVC_APP\\First_MVC_APP\\Views\\Employee\\Card.cshtml",
-              "RelativeDocumentMoniker": "First_MVC_APP\\Views\\Employee\\Card.cshtml",
-              "ToolTip": "D:\\C-DAC\\.NetCore_MVC\\First_MVC_APP\\First_MVC_APP\\Views\\Employee\\Card.cshtml",
-              "RelativeToolTip": "First_MVC_APP\\Views\\Employee\\Card.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAtAAAAAAAAAA==",
+              "DocumentMoniker": "D:\\C-DAC\\.NetCore_MVC\\First_MVC_APP\\First_MVC_APP\\Views\\Supplies\\Card.cshtml",
+              "RelativeDocumentMoniker": "First_MVC_APP\\Views\\Supplies\\Card.cshtml",
+              "ToolTip": "D:\\C-DAC\\.NetCore_MVC\\First_MVC_APP\\First_MVC_APP\\Views\\Supplies\\Card.cshtml",
+              "RelativeToolTip": "First_MVC_APP\\Views\\Supplies\\Card.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-23T11:22:46.479Z",
+              "WhenOpened": "2026-06-24T09:23:19.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Supplies.cs",
+              "DocumentMoniker": "D:\\C-DAC\\.NetCore_MVC\\First_MVC_APP\\First_MVC_APP\\Models\\Supplies.cs",
+              "RelativeDocumentMoniker": "First_MVC_APP\\Models\\Supplies.cs",
+              "ToolTip": "D:\\C-DAC\\.NetCore_MVC\\First_MVC_APP\\First_MVC_APP\\Models\\Supplies.cs",
+              "RelativeToolTip": "First_MVC_APP\\Models\\Supplies.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T09:19:07.979Z",
               "EditorCaption": ""
             }
           ]

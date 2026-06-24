@@ -11,14 +11,14 @@ namespace First_MVC_APP.Controllers
         }
 
         private readonly List<SuppliesController> _suppliesControllers;
-        private List<Employee> _supplies;
+        private readonly List<Supplies> _supplies;
 
         public SuppliesController()
         {
-            _supplies = new List<Employee>()
+            _supplies = new List<Supplies>()
             {
-                new Employee() { name = "Zoro", bounty = 250000 },
-                new Employee() { name = "Lufi", bounty = 450000 },
+                new Supplies() {name = "Zoro", bounty = 250000},
+                new Supplies() {name = "Luffy", bounty = 450000 },
             };
         }
 
@@ -28,14 +28,13 @@ namespace First_MVC_APP.Controllers
         }
 
 
-        public IActionResult List()
-        {
-            return View(_supplies);
-        }
         public IActionResult Card()
         {
             return View(_supplies);
         }
-       
+        public IActionResult List()
+        {
+            return View(_supplies);
+        }   
     }
 }

@@ -1,0 +1,22 @@
+﻿@model List<Supplies>
+
+  <h1>Supplies Page</h1>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>name</th>
+            <th>bounty</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (Supplies sup in Model)
+        {
+            <tr>
+                <td>@sup.name</td>
+                <td>@sup.bounty</td>
+            </tr>
+        }
+    </tbody>
+</table>
