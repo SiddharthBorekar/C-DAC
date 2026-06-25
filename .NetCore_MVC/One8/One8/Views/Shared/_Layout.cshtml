@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - One8</title>
+    <script type="importmap"></script>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/One8.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+                <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom shadow-sm">
+                    <div class="container-fluid">
+
+                        <!-- Left Menu -->
+                        <div class="d-flex">
+                            <ul class="navbar-nav flex-row">
+                                <li class="nav-item me-3">
+                                    <a class="nav-link" asp-controller="Home" asp-action="Index">Featured</a>
+                                </li>
+                                <li class="nav-item me-3">
+                                    <a class="nav-link" asp-controller="Home" asp-action="Privacy">Women</a>
+                                </li>
+                                <li class="nav-item me-3">
+                                    <a class="nav-link" asp-controller="Home" asp-action="Privacy">Men</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-controller="Home" asp-action="Privacy">Release Calendar</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- Center Brand -->
+                        <a class="navbar-brand position-absolute start-50 translate-middle-x fw-bold fs-3 mb-0"
+                           asp-controller="Home"
+                           asp-action="Index">
+                            One8
+                        </a>
+
+                        <!-- Right Search -->
+                        <form class="d-flex">
+                            <input class="form-control me-2 rounded-pill"
+                                   type="search"
+                                   placeholder="Search"
+                                   aria-label="Search">
+                            <button class="btn btn-dark rounded-pill px-4" type="submit">
+                                Search
+                            </button>
+                        </form>
+
+                    </div>
+                </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2026 - One8 - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

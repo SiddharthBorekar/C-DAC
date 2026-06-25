@@ -1,0 +1,169 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\C-DAC\\.NetCore_MVC\\One8\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E578E832-C817-83C5-804A-A25A2A9AD65F}|One8\\One8.csproj|d:\\c-dac\\.netcore_mvc\\one8\\one8\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E578E832-C817-83C5-804A-A25A2A9AD65F}|One8\\One8.csproj|solutionrelative:one8\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E578E832-C817-83C5-804A-A25A2A9AD65F}|One8\\One8.csproj|d:\\c-dac\\.netcore_mvc\\one8\\one8\\controllers\\featuredcontroller1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E578E832-C817-83C5-804A-A25A2A9AD65F}|One8\\One8.csproj|solutionrelative:one8\\controllers\\featuredcontroller1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E578E832-C817-83C5-804A-A25A2A9AD65F}|One8\\One8.csproj|d:\\c-dac\\.netcore_mvc\\one8\\one8\\models\\release_calandar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E578E832-C817-83C5-804A-A25A2A9AD65F}|One8\\One8.csproj|solutionrelative:one8\\models\\release_calandar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E578E832-C817-83C5-804A-A25A2A9AD65F}|One8\\One8.csproj|d:\\c-dac\\.netcore_mvc\\one8\\one8\\models\\men.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E578E832-C817-83C5-804A-A25A2A9AD65F}|One8\\One8.csproj|solutionrelative:one8\\models\\men.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E578E832-C817-83C5-804A-A25A2A9AD65F}|One8\\One8.csproj|d:\\c-dac\\.netcore_mvc\\one8\\one8\\models\\women.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E578E832-C817-83C5-804A-A25A2A9AD65F}|One8\\One8.csproj|solutionrelative:one8\\models\\women.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E578E832-C817-83C5-804A-A25A2A9AD65F}|One8\\One8.csproj|d:\\c-dac\\.netcore_mvc\\one8\\one8\\models\\featured.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E578E832-C817-83C5-804A-A25A2A9AD65F}|One8\\One8.csproj|solutionrelative:one8\\models\\featured.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E578E832-C817-83C5-804A-A25A2A9AD65F}|One8\\One8.csproj|d:\\c-dac\\.netcore_mvc\\one8\\one8\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E578E832-C817-83C5-804A-A25A2A9AD65F}|One8\\One8.csproj|solutionrelative:one8\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E578E832-C817-83C5-804A-A25A2A9AD65F}|One8\\One8.csproj|d:\\c-dac\\.netcore_mvc\\one8\\one8\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E578E832-C817-83C5-804A-A25A2A9AD65F}|One8\\One8.csproj|solutionrelative:one8\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E578E832-C817-83C5-804A-A25A2A9AD65F}|One8\\One8.csproj|d:\\c-dac\\.netcore_mvc\\one8\\one8\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E578E832-C817-83C5-804A-A25A2A9AD65F}|One8\\One8.csproj|solutionrelative:one8\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\C-DAC\\.NetCore_MVC\\One8\\One8\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "One8\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\C-DAC\\.NetCore_MVC\\One8\\One8\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "One8\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-25T11:47:19.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FeaturedController1.cs",
+              "DocumentMoniker": "D:\\C-DAC\\.NetCore_MVC\\One8\\One8\\Controllers\\FeaturedController1.cs",
+              "RelativeDocumentMoniker": "One8\\Controllers\\FeaturedController1.cs",
+              "ToolTip": "D:\\C-DAC\\.NetCore_MVC\\One8\\One8\\Controllers\\FeaturedController1.cs",
+              "RelativeToolTip": "One8\\Controllers\\FeaturedController1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T11:40:30.922Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Release_Calandar.cs",
+              "DocumentMoniker": "D:\\C-DAC\\.NetCore_MVC\\One8\\One8\\Models\\Release_Calandar.cs",
+              "RelativeDocumentMoniker": "One8\\Models\\Release_Calandar.cs",
+              "ToolTip": "D:\\C-DAC\\.NetCore_MVC\\One8\\One8\\Models\\Release_Calandar.cs",
+              "RelativeToolTip": "One8\\Models\\Release_Calandar.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T11:26:46.037Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Men.cs",
+              "DocumentMoniker": "D:\\C-DAC\\.NetCore_MVC\\One8\\One8\\Models\\Men.cs",
+              "RelativeDocumentMoniker": "One8\\Models\\Men.cs",
+              "ToolTip": "D:\\C-DAC\\.NetCore_MVC\\One8\\One8\\Models\\Men.cs",
+              "RelativeToolTip": "One8\\Models\\Men.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T11:26:00.265Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Women.cs",
+              "DocumentMoniker": "D:\\C-DAC\\.NetCore_MVC\\One8\\One8\\Models\\Women.cs",
+              "RelativeDocumentMoniker": "One8\\Models\\Women.cs",
+              "ToolTip": "D:\\C-DAC\\.NetCore_MVC\\One8\\One8\\Models\\Women.cs",
+              "RelativeToolTip": "One8\\Models\\Women.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T11:25:44.225Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Featured.cs",
+              "DocumentMoniker": "D:\\C-DAC\\.NetCore_MVC\\One8\\One8\\Models\\Featured.cs",
+              "RelativeDocumentMoniker": "One8\\Models\\Featured.cs",
+              "ToolTip": "D:\\C-DAC\\.NetCore_MVC\\One8\\One8\\Models\\Featured.cs",
+              "RelativeToolTip": "One8\\Models\\Featured.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T11:25:31.125Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\C-DAC\\.NetCore_MVC\\One8\\One8\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "One8\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\C-DAC\\.NetCore_MVC\\One8\\One8\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "One8\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-25T08:46:39.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\C-DAC\\.NetCore_MVC\\One8\\One8\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "One8\\Models\\ErrorViewModel.cs",
+              "ToolTip": "D:\\C-DAC\\.NetCore_MVC\\One8\\One8\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "One8\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T08:43:54.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\C-DAC\\.NetCore_MVC\\One8\\One8\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "One8\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\C-DAC\\.NetCore_MVC\\One8\\One8\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "One8\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T08:43:45.759Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
