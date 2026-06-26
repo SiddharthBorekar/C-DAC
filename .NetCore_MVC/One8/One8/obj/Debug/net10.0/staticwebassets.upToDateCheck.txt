@@ -1,5 +1,8 @@
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\Image\logo.png
+wwwroot\Image\one8-logo-transparent.png
+wwwroot\Image\svgexport-24-transparent.png
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
@@ -61,7 +64,7 @@ wwwroot\lib\jquery\dist\jquery.slim.js
 wwwroot\lib\jquery\dist\jquery.slim.min.js
 wwwroot\lib\jquery\dist\jquery.slim.min.map
 wwwroot\lib\jquery\LICENSE.txt
-D:\C-DAC\.NetCore_MVC\One8\One8\wwwroot\css\site.css
+wwwroot\video\onevideo.mp4
 D:\C-DAC\.NetCore_MVC\One8\One8\wwwroot\favicon.ico
 D:\C-DAC\.NetCore_MVC\One8\One8\wwwroot\js\site.js
 D:\C-DAC\.NetCore_MVC\One8\One8\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
@@ -123,3 +126,4 @@ D:\C-DAC\.NetCore_MVC\One8\One8\wwwroot\lib\jquery\dist\jquery.slim.js
 D:\C-DAC\.NetCore_MVC\One8\One8\wwwroot\lib\jquery\dist\jquery.slim.min.js
 D:\C-DAC\.NetCore_MVC\One8\One8\wwwroot\lib\jquery\dist\jquery.slim.min.map
 D:\C-DAC\.NetCore_MVC\One8\One8\wwwroot\lib\jquery\LICENSE.txt
+D:\C-DAC\.NetCore_MVC\One8\One8\wwwroot\css\site.css

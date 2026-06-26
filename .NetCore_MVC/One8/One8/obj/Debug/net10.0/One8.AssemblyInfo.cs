@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("One8")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5208095438c7e7fac74bb6a10bfe13041a0360ee")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2e5e23bebde7295e4c3385b38f997ad82d3375bb")]
 [assembly: System.Reflection.AssemblyProductAttribute("One8")]
 [assembly: System.Reflection.AssemblyTitleAttribute("One8")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -107,7 +107,6 @@ wwwroot\lib\jquery\dist\jquery.min.map
 wwwroot\lib\jquery\LICENSE.txt
 D:\C-DAC\.NetCore_MVC\eCommerce.Mvc\wwwroot\css\site.css
 D:\C-DAC\.NetCore_MVC\eCommerce.Mvc\wwwroot\favicon.ico
-D:\C-DAC\.NetCore_MVC\eCommerce.Mvc\wwwroot\js\site.js
 D:\C-DAC\.NetCore_MVC\eCommerce.Mvc\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
 D:\C-DAC\.NetCore_MVC\eCommerce.Mvc\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
 D:\C-DAC\.NetCore_MVC\eCommerce.Mvc\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
@@ -164,3 +163,4 @@ D:\C-DAC\.NetCore_MVC\eCommerce.Mvc\wwwroot\lib\jquery\dist\jquery.js
 D:\C-DAC\.NetCore_MVC\eCommerce.Mvc\wwwroot\lib\jquery\dist\jquery.min.js
 D:\C-DAC\.NetCore_MVC\eCommerce.Mvc\wwwroot\lib\jquery\dist\jquery.min.map
 D:\C-DAC\.NetCore_MVC\eCommerce.Mvc\wwwroot\lib\jquery\LICENSE.txt
+D:\C-DAC\.NetCore_MVC\eCommerce.Mvc\wwwroot\js\site.js

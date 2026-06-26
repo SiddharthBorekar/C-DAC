@@ -1,6 +1,15 @@
 /* /Views/Shared/_Layout.cshtml.rz.scp.css */
 /* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */
+*[b-z2u46aw75d] {
+    box-sizing: border-box;
+}
+
+html[b-z2u46aw75d],
+body[b-z2u46aw75d] {
+    width: 100%;
+    overflow-x: hidden;
+}
 
 a.navbar-brand[b-z2u46aw75d] {
   white-space: normal;

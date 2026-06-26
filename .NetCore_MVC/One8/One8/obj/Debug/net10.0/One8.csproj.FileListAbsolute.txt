@@ -22,7 +22,6 @@ D:\C-DAC\.NetCore_MVC\One8\One8\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
 D:\C-DAC\.NetCore_MVC\One8\One8\obj\Debug\net10.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 D:\C-DAC\.NetCore_MVC\One8\One8\obj\Debug\net10.0\scopedcss\bundle\One8.styles.css
 D:\C-DAC\.NetCore_MVC\One8\One8\obj\Debug\net10.0\scopedcss\projectbundle\One8.bundle.scp.css
-D:\C-DAC\.NetCore_MVC\One8\One8\obj\Debug\net10.0\compressed\ubph5g1okl-{0}-b9sayid5wm-b9sayid5wm.gz
 D:\C-DAC\.NetCore_MVC\One8\One8\obj\Debug\net10.0\compressed\fy5kpufbp9-{0}-61n19gt1b8-61n19gt1b8.gz
 D:\C-DAC\.NetCore_MVC\One8\One8\obj\Debug\net10.0\compressed\n4i6mwpfa5-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
 D:\C-DAC\.NetCore_MVC\One8\One8\obj\Debug\net10.0\compressed\bsa6a17fpd-{0}-bqjiyaj88i-bqjiyaj88i.gz
@@ -84,8 +83,6 @@ D:\C-DAC\.NetCore_MVC\One8\One8\obj\Debug\net10.0\compressed\agmtwu7wrn-{0}-2z0n
 D:\C-DAC\.NetCore_MVC\One8\One8\obj\Debug\net10.0\compressed\o5w7iunlac-{0}-muycvpuwrr-muycvpuwrr.gz
 D:\C-DAC\.NetCore_MVC\One8\One8\obj\Debug\net10.0\compressed\hsimf25zsa-{0}-87fc7y1x7t-87fc7y1x7t.gz
 D:\C-DAC\.NetCore_MVC\One8\One8\obj\Debug\net10.0\compressed\o6113jshuj-{0}-mlv21k5csn-mlv21k5csn.gz
-D:\C-DAC\.NetCore_MVC\One8\One8\obj\Debug\net10.0\compressed\cbctj5lmtc-{0}-3ft3vwwobu-3ft3vwwobu.gz
-D:\C-DAC\.NetCore_MVC\One8\One8\obj\Debug\net10.0\compressed\0u0yt5elw7-{0}-3ft3vwwobu-3ft3vwwobu.gz
 D:\C-DAC\.NetCore_MVC\One8\One8\obj\Debug\net10.0\staticwebassets.build.json
 D:\C-DAC\.NetCore_MVC\One8\One8\obj\Debug\net10.0\staticwebassets.build.json.cache
 D:\C-DAC\.NetCore_MVC\One8\One8\obj\Debug\net10.0\staticwebassets.development.json
@@ -97,3 +94,6 @@ D:\C-DAC\.NetCore_MVC\One8\One8\obj\Debug\net10.0\refint\One8.dll
 D:\C-DAC\.NetCore_MVC\One8\One8\obj\Debug\net10.0\One8.pdb
 D:\C-DAC\.NetCore_MVC\One8\One8\obj\Debug\net10.0\One8.genruntimeconfig.cache
 D:\C-DAC\.NetCore_MVC\One8\One8\obj\Debug\net10.0\ref\One8.dll
+D:\C-DAC\.NetCore_MVC\One8\One8\obj\Debug\net10.0\compressed\ubph5g1okl-{0}-uxdpxyjtyr-uxdpxyjtyr.gz
+D:\C-DAC\.NetCore_MVC\One8\One8\obj\Debug\net10.0\compressed\cbctj5lmtc-{0}-pmpnsiuvdc-pmpnsiuvdc.gz
+D:\C-DAC\.NetCore_MVC\One8\One8\obj\Debug\net10.0\compressed\0u0yt5elw7-{0}-pmpnsiuvdc-pmpnsiuvdc.gz

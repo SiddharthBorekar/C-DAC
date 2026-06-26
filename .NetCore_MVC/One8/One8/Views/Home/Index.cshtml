@@ -3,7 +3,37 @@
 }
 
 <div class="container-fluid p-0">
-    <img src="https://one8.com/cdn/shop/files/Ode_to_cricket.jpg?v=1781820037&width=400"
-         alt="Virat Kohli"
-         class="img-fluid w-100 vh-100 object-fit-cover">
+    <video autoplay
+           muted
+           loop
+           playsinline
+           style="width:100vw; height:100vh; object-fit:cover; display:block;">
+        <source src="@Url.Content("D:\\C-DAC\\.NetCore_MVC\\One8\\One8\\wwwroot\\video\\onevideo.mp4")" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</div>
+<!-- Row 1: quote mark + logo -->
+
+<div class="row border-bottom border-secondary border-opacity-25 mx-0">
+    <div class="col-md-3 border-end border-secondary border-opacity-25 d-flex align-items-center justify-content-center py-4">
+        <span class="display-1 lh-1 text-secondary">&ldquo;</span>
+    </div>
+    <div class="col-md-9 d-flex align-items-center py-4 ps-md-5 ps-4">
+        <img src="~/Image/svgexport-24-transparent.png"
+             alt="One8 Logo"
+             class="img-fluid"
+             style="max-height:80px;">
+    </div>
+</div>
+
+<!-- Row 2: testimonial text + author -->
+<div class="row border-bottom border-secondary border-opacity-25 mx-0">
+    <div class="col-md-3 border-end border-secondary border-opacity-25"></div>
+    <div class="col-md-9 py-5 ps-md-5 ps-4">
+        <p class="fs-5 mb-4" style="max-width:700px;">
+            Building my own shoe is something I've wanted since I was a kid.
+            It's a small dream come true.
+        </p>
+        <p class="font-monospace fw-bold mb-0" style="color: var(--bs-teal);">&ndash; VIRAT KOHLI</p>
+    </div>
 </div>
