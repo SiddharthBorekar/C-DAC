@@ -26,7 +26,7 @@ public class eCommerceDbContext : DbContext
     {
         if (!optionsBuilder.IsConfigured)
         {
-            optionsBuilder.UseMySQL("Server=127.0.0.1;Port=3306;Database=Ecom;User Id=root;Password=@Joker123");
+            optionsBuilder.UseMySQL("Server=127.0.0.1;Port=3306;Database=Ecoms;User Id=root;Password=@Joker123");
            //optionsBuilder.UseSqlServer("Server=(localdb)\\MSSQLLocalDB;Database=MSSqlEComDb;Trusted_Connection=True;TrustServerCertificate=True;");
         }
     }

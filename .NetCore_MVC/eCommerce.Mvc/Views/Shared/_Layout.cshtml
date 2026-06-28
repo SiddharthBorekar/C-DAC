@@ -10,41 +10,88 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom shadow-sm">
             <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">eCommerce.Mvc</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                <!-- Left Menu -->
+                <div class="d-flex">
+                    <ul class="navbar-nav flex-row">
+                        <li class="nav-item me-3">
+                            <a class="nav-link" asp-controller="Home" asp-action="Index">Featured</a>
+                        </li>
+                        <li class="nav-item me-3">
+                            <a class="nav-link" asp-controller="Home" asp-action="Privacy">Women</a>
+                        </li>
+                        <li class="nav-item me-3">
+                            <a class="nav-link" asp-controller="Home" asp-action="Privacy">Men</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-controller="Categories" asp-action="Index">Catgeories</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-controller="Products" asp-action="Index">Products</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                            <a class="nav-link" asp-controller="Home" asp-action="Privacy">Release Calendar</a>
                         </li>
                     </ul>
                 </div>
-            </div>
+
+                <!-- Center Brand -->
+                <a class="navbar-brand d-flex align-items-center"
+                   asp-area=""
+                   asp-controller="Home"
+                   asp-action="Index">
+                    <img src="~/Images/logo.png"
+                         alt="One8 Logo"
+                         class="img-fluid"
+                         style="height:60px;">
+                </a>
+
+                <!-- Right Search -->
+                <form class="d-flex">
+                    <input class="form-control me-2 rounded-pill"
+                           type="search"
+                           placeholder="Search"
+                           aria-label="Search">
+                    <button class="btn btn-dark rounded-pill px-4" type="submit">
+                        Search
+                    </button>
+                </form>
         </nav>
     </header>
-    <div class="container">
-        <main role="main" class="pb-3">
+    <div class="container-fluid p-0 flex-grow-1">
+        <main role="main">
             @RenderBody()
         </main>
     </div>
+    <footer class="footer text-light" style="background-color:#1A1A1A;">
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2026 - eCommerce.Mvc - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        <div class="row border-bottom border-secondary border-opacity-25 mx-0">
+            <div class="col-md-3 border-end border-secondary border-opacity-25 d-flex align-items-center justify-content-center py-4">
+                <span class="display-1 lh-1 text-secondary">&ldquo;</span>
+            </div>
+            <div class="col-md-9 d-flex align-items-center py-4 ps-md-5 ps-4">
+                <img src="~/Images/svgexport-24-transparent.png"
+                     alt="One8 Logo"
+                     class="img-fluid"
+                     style="max-height:80px;">
+            </div>
+        </div>
+
+        <div class="row border-bottom border-secondary border-opacity-25 mx-0">
+            <div class="col-md-3 border-end border-secondary border-opacity-25"></div>
+            <div class="col-md-9 py-5 ps-md-5 ps-4">
+                <p class="fs-5 mb-4" style="max-width:700px;">
+                    Building my own shoe is something I've wanted since I was a kid.
+                    It's a small dream come true.
+                </p>
+                <p class="font-monospace fw-bold mb-0" style="color: var(--bs-teal);">&ndash; VIRAT KOHLI</p>
+            </div>
+        </div>
+
+        <div class="container-fluid p-0">
+            <div class="row mx-0 align-items-center" style="min-height: 300px;">
+                <div class="col text-center py-3">
+                    <img src="~/Images/one8-logo-transparent.png"
+                         alt="One8 Logo"
+                         class="img-fluid"
+                         style="max-width:60%; height:auto;">
+                </div>
+            </div>
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>

@@ -643,7 +643,6 @@ D:\C-DAC\.NetCore_MVC\eCommerce.Mvc\obj\Debug\net10.0\scopedcss\bundle\eCommerce
 D:\C-DAC\.NetCore_MVC\eCommerce.Mvc\obj\Debug\net10.0\scopedcss\projectbundle\eCommerce.Mvc.bundle.scp.css
 D:\C-DAC\.NetCore_MVC\eCommerce.Mvc\obj\Debug\net10.0\compressed\v3ssz6m914-{0}-c6sotdfr1b-c6sotdfr1b.gz
 D:\C-DAC\.NetCore_MVC\eCommerce.Mvc\obj\Debug\net10.0\compressed\s2fwmn9yz6-{0}-61n19gt1b8-61n19gt1b8.gz
-D:\C-DAC\.NetCore_MVC\eCommerce.Mvc\obj\Debug\net10.0\compressed\3aws3uu22j-{0}-fr7q2aak1r-fr7q2aak1r.gz
 D:\C-DAC\.NetCore_MVC\eCommerce.Mvc\obj\Debug\net10.0\compressed\y6o0q07j0s-{0}-agp80tu62r-agp80tu62r.gz
 D:\C-DAC\.NetCore_MVC\eCommerce.Mvc\obj\Debug\net10.0\compressed\ps8tzrygf3-{0}-st1cbwfwo5-st1cbwfwo5.gz
 D:\C-DAC\.NetCore_MVC\eCommerce.Mvc\obj\Debug\net10.0\compressed\e3vxu1phoe-{0}-unj9p35syc-unj9p35syc.gz
@@ -700,8 +699,6 @@ D:\C-DAC\.NetCore_MVC\eCommerce.Mvc\obj\Debug\net10.0\compressed\3v8trukw94-{0}-
 D:\C-DAC\.NetCore_MVC\eCommerce.Mvc\obj\Debug\net10.0\compressed\vvrbr7qifl-{0}-dd6z7egasc-dd6z7egasc.gz
 D:\C-DAC\.NetCore_MVC\eCommerce.Mvc\obj\Debug\net10.0\compressed\f2pci6sexn-{0}-5pze98is44-5pze98is44.gz
 D:\C-DAC\.NetCore_MVC\eCommerce.Mvc\obj\Debug\net10.0\compressed\x4mcc3xjag-{0}-jfsiqqwiad-jfsiqqwiad.gz
-D:\C-DAC\.NetCore_MVC\eCommerce.Mvc\obj\Debug\net10.0\compressed\lit4r6xrgt-{0}-h99iut97wh-h99iut97wh.gz
-D:\C-DAC\.NetCore_MVC\eCommerce.Mvc\obj\Debug\net10.0\compressed\s9vwtjj5di-{0}-h99iut97wh-h99iut97wh.gz
 D:\C-DAC\.NetCore_MVC\eCommerce.Mvc\obj\Debug\net10.0\staticwebassets.build.json
 D:\C-DAC\.NetCore_MVC\eCommerce.Mvc\obj\Debug\net10.0\staticwebassets.build.json.cache
 D:\C-DAC\.NetCore_MVC\eCommerce.Mvc\obj\Debug\net10.0\staticwebassets.development.json
@@ -714,3 +711,6 @@ D:\C-DAC\.NetCore_MVC\eCommerce.Mvc\obj\Debug\net10.0\refint\eCommerce.Mvc.dll
 D:\C-DAC\.NetCore_MVC\eCommerce.Mvc\obj\Debug\net10.0\eCommerce.Mvc.pdb
 D:\C-DAC\.NetCore_MVC\eCommerce.Mvc\obj\Debug\net10.0\eCommerce.Mvc.genruntimeconfig.cache
 D:\C-DAC\.NetCore_MVC\eCommerce.Mvc\obj\Debug\net10.0\ref\eCommerce.Mvc.dll
+D:\C-DAC\.NetCore_MVC\eCommerce.Mvc\obj\Debug\net10.0\compressed\lit4r6xrgt-{0}-rocu0rf4k1-rocu0rf4k1.gz
+D:\C-DAC\.NetCore_MVC\eCommerce.Mvc\obj\Debug\net10.0\compressed\s9vwtjj5di-{0}-rocu0rf4k1-rocu0rf4k1.gz
+D:\C-DAC\.NetCore_MVC\eCommerce.Mvc\obj\Debug\net10.0\compressed\3aws3uu22j-{0}-47hxeiifp3-47hxeiifp3.gz
