@@ -1,0 +1,61 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\C-DAC\\.NetCore_MVC\\FileIO\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{74C44DC6-EEAE-6E18-D5CC-DC14685B5C9E}|FileIOcrud\\FileIOcrud.csproj|d:\\c-dac\\.netcore_mvc\\fileio\\fileiocrud\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74C44DC6-EEAE-6E18-D5CC-DC14685B5C9E}|FileIOcrud\\FileIOcrud.csproj|solutionrelative:fileiocrud\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74C44DC6-EEAE-6E18-D5CC-DC14685B5C9E}|FileIOcrud\\FileIOcrud.csproj|d:\\c-dac\\.netcore_mvc\\fileio\\fileiocrud\\cpysample.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{74C44DC6-EEAE-6E18-D5CC-DC14685B5C9E}|FileIOcrud\\FileIOcrud.csproj|solutionrelative:fileiocrud\\cpysample.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CpySample.txt",
+              "DocumentMoniker": "D:\\C-DAC\\.NetCore_MVC\\FileIO\\FileIOcrud\\CpySample.txt",
+              "RelativeDocumentMoniker": "FileIOcrud\\CpySample.txt",
+              "ToolTip": "D:\\C-DAC\\.NetCore_MVC\\FileIO\\FileIOcrud\\CpySample.txt",
+              "RelativeToolTip": "FileIOcrud\\CpySample.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-06-28T17:36:12.785Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\C-DAC\\.NetCore_MVC\\FileIO\\FileIOcrud\\Program.cs",
+              "RelativeDocumentMoniker": "FileIOcrud\\Program.cs",
+              "ToolTip": "D:\\C-DAC\\.NetCore_MVC\\FileIO\\FileIOcrud\\Program.cs",
+              "RelativeToolTip": "FileIOcrud\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-28T13:20:32.591Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\C-DAC\\.NetCore_MVC\\exam_prep\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EA2E8164-3764-42F8-B857-D131243B1E8B}|exam_prep\\exam_prep.csproj|d:\\c-dac\\.netcore_mvc\\exam_prep\\exam_prep\\model\\depatment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA2E8164-3764-42F8-B857-D131243B1E8B}|exam_prep\\exam_prep.csproj|solutionrelative:exam_prep\\model\\depatment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA2E8164-3764-42F8-B857-D131243B1E8B}|exam_prep\\exam_prep.csproj|d:\\c-dac\\.netcore_mvc\\exam_prep\\exam_prep\\model\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA2E8164-3764-42F8-B857-D131243B1E8B}|exam_prep\\exam_prep.csproj|solutionrelative:exam_prep\\model\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA2E8164-3764-42F8-B857-D131243B1E8B}|exam_prep\\exam_prep.csproj|d:\\c-dac\\.netcore_mvc\\exam_prep\\exam_prep\\exam_prep.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{EA2E8164-3764-42F8-B857-D131243B1E8B}|exam_prep\\exam_prep.csproj|solutionrelative:exam_prep\\exam_prep.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA2E8164-3764-42F8-B857-D131243B1E8B}|exam_prep\\exam_prep.csproj|d:\\c-dac\\.netcore_mvc\\exam_prep\\exam_prep\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA2E8164-3764-42F8-B857-D131243B1E8B}|exam_prep\\exam_prep.csproj|solutionrelative:exam_prep\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Depatment.cs",
+              "DocumentMoniker": "D:\\C-DAC\\.NetCore_MVC\\exam_prep\\exam_prep\\Model\\Depatment.cs",
+              "RelativeDocumentMoniker": "exam_prep\\Model\\Depatment.cs",
+              "ToolTip": "D:\\C-DAC\\.NetCore_MVC\\exam_prep\\exam_prep\\Model\\Depatment.cs*",
+              "RelativeToolTip": "exam_prep\\Model\\Depatment.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T09:46:41.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "D:\\C-DAC\\.NetCore_MVC\\exam_prep\\exam_prep\\Model\\Employee.cs",
+              "RelativeDocumentMoniker": "exam_prep\\Model\\Employee.cs",
+              "ToolTip": "D:\\C-DAC\\.NetCore_MVC\\exam_prep\\exam_prep\\Model\\Employee.cs",
+              "RelativeToolTip": "exam_prep\\Model\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T09:43:57.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "exam_prep",
+              "DocumentMoniker": "D:\\C-DAC\\.NetCore_MVC\\exam_prep\\exam_prep\\exam_prep.csproj",
+              "RelativeDocumentMoniker": "exam_prep\\exam_prep.csproj",
+              "ToolTip": "D:\\C-DAC\\.NetCore_MVC\\exam_prep\\exam_prep\\exam_prep.csproj*",
+              "RelativeToolTip": "exam_prep\\exam_prep.csproj*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-29T09:39:38.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\C-DAC\\.NetCore_MVC\\exam_prep\\exam_prep\\Program.cs",
+              "RelativeDocumentMoniker": "exam_prep\\Program.cs",
+              "ToolTip": "D:\\C-DAC\\.NetCore_MVC\\exam_prep\\exam_prep\\Program.cs",
+              "RelativeToolTip": "exam_prep\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T09:39:17.402Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

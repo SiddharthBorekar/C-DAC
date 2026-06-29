@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "LINQJoin/1.0.0": {
+        "runtime": {
+          "LINQJoin.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LINQJoin/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
