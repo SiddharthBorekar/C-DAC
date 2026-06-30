@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Group015\\Desktop\\ASP.NET Core\\EFCoreDemo\\EmpWebAPI\\EmpWebAPI.csproj": {}
+    "D:\\C-DAC\\.NetCore_MVC\\EmpWebAPI\\EmpWebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Group015\\Desktop\\ASP.NET Core\\EFCoreDemo\\EmpWebAPI\\EmpWebAPI.csproj": {
+    "D:\\C-DAC\\.NetCore_MVC\\EmpWebAPI\\EmpWebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Group015\\Desktop\\ASP.NET Core\\EFCoreDemo\\EmpWebAPI\\EmpWebAPI.csproj",
+        "projectUniqueName": "D:\\C-DAC\\.NetCore_MVC\\EmpWebAPI\\EmpWebAPI.csproj",
         "projectName": "EmpWebAPI",
-        "projectPath": "C:\\Users\\Group015\\Desktop\\ASP.NET Core\\EFCoreDemo\\EmpWebAPI\\EmpWebAPI.csproj",
-        "packagesPath": "C:\\Users\\Group015\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Group015\\Desktop\\ASP.NET Core\\EFCoreDemo\\EmpWebAPI\\obj\\",
+        "projectPath": "D:\\C-DAC\\.NetCore_MVC\\EmpWebAPI\\EmpWebAPI.csproj",
+        "packagesPath": "C:\\Users\\adity\\.nuget\\packages\\",
+        "outputPath": "D:\\C-DAC\\.NetCore_MVC\\EmpWebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Group015\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\adity\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -30,6 +30,7 @@
         },
         "frameworks": {
           "net8.0": {
+            "framework": "net8.0",
             "targetAlias": "net8.0",
             "projectReferences": {}
           }
@@ -44,10 +45,11 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "net8.0": {
+          "framework": "net8.0",
           "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore.Tools": {
@@ -76,6 +78,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.28, 8.0.28]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[8.0.28, 8.0.28]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.28, 8.0.28]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.28, 8.0.28]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -84,7 +104,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.313/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
