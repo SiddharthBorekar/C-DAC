@@ -24,5 +24,5 @@ public class Employee
     [ForeignKey("Department")]
     public int DepartmentId { get; set; }
     //navigation property for department
-    public Department? department { get; set; }
+    public Department? Departments { get; set; }
 }

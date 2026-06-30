@@ -1,18 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\CDAC\\Adventure\\.NET_ASP\\LINQPracticleConsole\\",
+  "WorkspaceRootPath": "D:\\C-DAC\\.NetCore_MVC\\LINQPracticleConsole\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{39707788-A371-41C4-A7D3-ED4EF9D3A4BB}|LINQJoin\\LINQJoin.csproj|d:\\cdac\\adventure\\.net_asp\\linqpracticleconsole\\linqjoin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{39707788-A371-41C4-A7D3-ED4EF9D3A4BB}|LINQJoin\\LINQJoin.csproj|solutionrelative:linqjoin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CA3592B4-8230-3290-22B3-22B168567C0E}|LINQJoin\\LINQJoin.csproj|d:\\c-dac\\.netcore_mvc\\linqpracticleconsole\\linqjoin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA3592B4-8230-3290-22B3-22B168567C0E}|LINQJoin\\LINQJoin.csproj|solutionrelative:linqjoin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{39707788-A371-41C4-A7D3-ED4EF9D3A4BB}|LINQJoin\\LINQJoin.csproj|d:\\cdac\\adventure\\.net_asp\\linqpracticleconsole\\linqjoin\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{39707788-A371-41C4-A7D3-ED4EF9D3A4BB}|LINQJoin\\LINQJoin.csproj|solutionrelative:linqjoin\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CA3592B4-8230-3290-22B3-22B168567C0E}|LINQJoin\\LINQJoin.csproj|d:\\c-dac\\.netcore_mvc\\linqpracticleconsole\\linqjoin\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA3592B4-8230-3290-22B3-22B168567C0E}|LINQJoin\\LINQJoin.csproj|solutionrelative:linqjoin\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{39707788-A371-41C4-A7D3-ED4EF9D3A4BB}|LINQJoin\\LINQJoin.csproj|d:\\cdac\\adventure\\.net_asp\\linqpracticleconsole\\linqjoin\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{39707788-A371-41C4-A7D3-ED4EF9D3A4BB}|LINQJoin\\LINQJoin.csproj|solutionrelative:linqjoin\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CA3592B4-8230-3290-22B3-22B168567C0E}|LINQJoin\\LINQJoin.csproj|d:\\c-dac\\.netcore_mvc\\linqpracticleconsole\\linqjoin\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA3592B4-8230-3290-22B3-22B168567C0E}|LINQJoin\\LINQJoin.csproj|solutionrelative:linqjoin\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA3592B4-8230-3290-22B3-22B168567C0E}|LINQJoin\\LINQJoin.csproj|d:\\c-dac\\.netcore_mvc\\linqpracticleconsole\\linqjoin\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA3592B4-8230-3290-22B3-22B168567C0E}|LINQJoin\\LINQJoin.csproj|solutionrelative:linqjoin\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,47 +26,60 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "D:\\C-DAC\\.NetCore_MVC\\LINQPracticleConsole\\LINQJoin\\Customer.cs",
+              "RelativeDocumentMoniker": "LINQJoin\\Customer.cs",
+              "ToolTip": "D:\\C-DAC\\.NetCore_MVC\\LINQPracticleConsole\\LINQJoin\\Customer.cs",
+              "RelativeToolTip": "LINQJoin\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-30T00:14:28.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\CDAC\\Adventure\\.NET_ASP\\LINQPracticleConsole\\LINQJoin\\Program.cs",
+              "DocumentMoniker": "D:\\C-DAC\\.NetCore_MVC\\LINQPracticleConsole\\LINQJoin\\Program.cs",
               "RelativeDocumentMoniker": "LINQJoin\\Program.cs",
-              "ToolTip": "D:\\CDAC\\Adventure\\.NET_ASP\\LINQPracticleConsole\\LINQJoin\\Program.cs",
-              "RelativeToolTip": "LINQJoin\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "ToolTip": "D:\\C-DAC\\.NetCore_MVC\\LINQPracticleConsole\\LINQJoin\\Program.cs*",
+              "RelativeToolTip": "LINQJoin\\Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-28T11:41:03.223Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Order.cs",
-              "DocumentMoniker": "D:\\CDAC\\Adventure\\.NET_ASP\\LINQPracticleConsole\\LINQJoin\\Order.cs",
+              "DocumentMoniker": "D:\\C-DAC\\.NetCore_MVC\\LINQPracticleConsole\\LINQJoin\\Order.cs",
               "RelativeDocumentMoniker": "LINQJoin\\Order.cs",
-              "ToolTip": "D:\\CDAC\\Adventure\\.NET_ASP\\LINQPracticleConsole\\LINQJoin\\Order.cs",
+              "ToolTip": "D:\\C-DAC\\.NetCore_MVC\\LINQPracticleConsole\\LINQJoin\\Order.cs",
               "RelativeToolTip": "LINQJoin\\Order.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-28T11:39:05.908Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Product.cs",
-              "DocumentMoniker": "D:\\CDAC\\Adventure\\.NET_ASP\\LINQPracticleConsole\\LINQJoin\\Product.cs",
+              "DocumentMoniker": "D:\\C-DAC\\.NetCore_MVC\\LINQPracticleConsole\\LINQJoin\\Product.cs",
               "RelativeDocumentMoniker": "LINQJoin\\Product.cs",
-              "ToolTip": "D:\\CDAC\\Adventure\\.NET_ASP\\LINQPracticleConsole\\LINQJoin\\Product.cs",
+              "ToolTip": "D:\\C-DAC\\.NetCore_MVC\\LINQPracticleConsole\\LINQJoin\\Product.cs",
               "RelativeToolTip": "LINQJoin\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-28T11:36:12.031Z",
               "EditorCaption": ""

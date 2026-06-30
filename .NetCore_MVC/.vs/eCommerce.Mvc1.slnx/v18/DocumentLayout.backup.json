@@ -74,8 +74,7 @@
               "RelativeToolTip": "eCommerce.Mvc\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAFsAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-26T15:09:22.129Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-26T15:09:22.129Z"
             },
             {
               "$type": "Document",
@@ -87,8 +86,7 @@
               "RelativeToolTip": "eCommerce.Mvc\\Views\\Products\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-26T12:43:19.777Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-26T12:43:19.777Z"
             },
             {
               "$type": "Document",
@@ -110,7 +108,7 @@
               "RelativeDocumentMoniker": "eCommerce.Mvc\\Views\\Home\\Index.cshtml",
               "ToolTip": "D:\\C-DAC\\.NetCore_MVC\\eCommerce.Mvc\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "eCommerce.Mvc\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABAAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-06-26T12:37:09.072Z",
               "EditorCaption": ""
@@ -125,8 +123,7 @@
               "RelativeToolTip": "eCommerce.Mvc\\Views\\Categories\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAACeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-26T12:33:38.99Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-26T12:33:38.99Z"
             },
             {
               "$type": "Document",
@@ -138,8 +135,7 @@
               "RelativeToolTip": "eCommerce.Mvc\\Models\\Category.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-26T12:25:19.736Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-26T12:25:19.736Z"
             },
             {
               "$type": "Document",
@@ -151,8 +147,7 @@
               "RelativeToolTip": "eCommerce.Mvc\\Dal\\eCommerceDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-26T12:13:39.222Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-26T12:13:39.222Z"
             },
             {
               "$type": "Document",
@@ -164,8 +159,7 @@
               "RelativeToolTip": "eCommerce.Mvc\\Controllers\\CategoriesController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-26T12:12:13.804Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-26T12:12:13.804Z"
             },
             {
               "$type": "Document",
@@ -177,8 +171,7 @@
               "RelativeToolTip": "eCommerce.Mvc\\Views\\_ViewImports.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-26T11:56:13.088Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-26T11:56:13.088Z"
             },
             {
               "$type": "Document",

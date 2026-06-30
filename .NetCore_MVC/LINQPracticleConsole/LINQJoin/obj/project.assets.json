@@ -8,23 +8,23 @@
     "net10.0": []
   },
   "packageFolders": {
-    "C:\\Users\\saisagar\\.nuget\\packages\\": {},
+    "C:\\Users\\adity\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\CDAC\\Adventure\\.NET_ASP\\LINQPracticleConsole\\LINQJoin\\LINQJoin.csproj",
+      "projectUniqueName": "D:\\C-DAC\\.NetCore_MVC\\LINQPracticleConsole\\LINQJoin\\LINQJoin.csproj",
       "projectName": "LINQJoin",
-      "projectPath": "D:\\CDAC\\Adventure\\.NET_ASP\\LINQPracticleConsole\\LINQJoin\\LINQJoin.csproj",
-      "packagesPath": "C:\\Users\\saisagar\\.nuget\\packages\\",
-      "outputPath": "D:\\CDAC\\Adventure\\.NET_ASP\\LINQPracticleConsole\\LINQJoin\\obj\\",
+      "projectPath": "D:\\C-DAC\\.NetCore_MVC\\LINQPracticleConsole\\LINQJoin\\LINQJoin.csproj",
+      "packagesPath": "C:\\Users\\adity\\.nuget\\packages\\",
+      "outputPath": "D:\\C-DAC\\.NetCore_MVC\\LINQPracticleConsole\\LINQJoin\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\saisagar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\adity\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

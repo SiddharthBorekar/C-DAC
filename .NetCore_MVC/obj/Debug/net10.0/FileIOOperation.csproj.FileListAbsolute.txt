@@ -1,0 +1,15 @@
+D:\CDAC\Adventure\.NET_ASP\ExamPreparation\FileIOOperation\bin\Debug\net10.0\FileIOOperation.exe
+D:\CDAC\Adventure\.NET_ASP\ExamPreparation\FileIOOperation\bin\Debug\net10.0\FileIOOperation.deps.json
+D:\CDAC\Adventure\.NET_ASP\ExamPreparation\FileIOOperation\bin\Debug\net10.0\FileIOOperation.runtimeconfig.json
+D:\CDAC\Adventure\.NET_ASP\ExamPreparation\FileIOOperation\bin\Debug\net10.0\FileIOOperation.dll
+D:\CDAC\Adventure\.NET_ASP\ExamPreparation\FileIOOperation\bin\Debug\net10.0\FileIOOperation.pdb
+D:\CDAC\Adventure\.NET_ASP\ExamPreparation\FileIOOperation\obj\Debug\net10.0\FileIOOperation.GeneratedMSBuildEditorConfig.editorconfig
+D:\CDAC\Adventure\.NET_ASP\ExamPreparation\FileIOOperation\obj\Debug\net10.0\FileIOOperation.AssemblyInfoInputs.cache
+D:\CDAC\Adventure\.NET_ASP\ExamPreparation\FileIOOperation\obj\Debug\net10.0\FileIOOperation.AssemblyInfo.cs
+D:\CDAC\Adventure\.NET_ASP\ExamPreparation\FileIOOperation\obj\Debug\net10.0\FileIOOperation.csproj.CoreCompileInputs.cache
+D:\CDAC\Adventure\.NET_ASP\ExamPreparation\FileIOOperation\obj\Debug\net10.0\FileIOOperation.sourcelink.json
+D:\CDAC\Adventure\.NET_ASP\ExamPreparation\FileIOOperation\obj\Debug\net10.0\FileIOOperation.dll
+D:\CDAC\Adventure\.NET_ASP\ExamPreparation\FileIOOperation\obj\Debug\net10.0\refint\FileIOOperation.dll
+D:\CDAC\Adventure\.NET_ASP\ExamPreparation\FileIOOperation\obj\Debug\net10.0\FileIOOperation.pdb
+D:\CDAC\Adventure\.NET_ASP\ExamPreparation\FileIOOperation\obj\Debug\net10.0\FileIOOperation.genruntimeconfig.cache
+D:\CDAC\Adventure\.NET_ASP\ExamPreparation\FileIOOperation\obj\Debug\net10.0\ref\FileIOOperation.dll

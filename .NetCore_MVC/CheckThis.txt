@@ -1,0 +1,81 @@
+Project: FileIOOperation
+
+Topic:
+File handling in C# using System.IO File class for create, write, append, read, copy, move, and delete operations.
+
+Project Question:
+Create a console application that performs basic file input/output operations: create a file, write data, append data, read data, copy the file, move the copied file, and optionally delete it.
+
+How to Implement:
+1. Create a Console App project named FileIOOperation.
+2. In Program.cs, print a heading such as "File IO Operation".
+3. Declare file paths:
+   - Original file path: Sample.txt
+   - Copy path: CpySample.txt
+   - Move path: MvSample.txt
+4. Check whether Sample.txt exists using File.Exists(filePath).
+5. If the file does not exist, create it using File.Create(filePath).
+6. Close the FileStream after creation using fs.Close().
+7. Write data using File.WriteAllText(filePath, "Hello World\n").
+8. Append extra data using File.AppendAllText().
+9. Read all lines using File.ReadAllLines(filePath).
+10. Print each line using foreach.
+11. Before copying, check whether the copy file already exists.
+12. If copy file exists, delete it using File.Delete(cpyPath).
+13. Copy original file to copy path using File.Copy(filePath, cpyPath).
+14. Before moving, check whether destination move file already exists.
+15. If move file exists, delete it.
+16. Move copied file to move path using File.Move(cpyPath, movePath).
+17. Optionally delete moved file using File.Delete(movePath).
+18. Run the project and verify generated files in the project folder.
+
+Key Points:
+- File.Exists checks whether a file is present.
+- File.Create creates a file and returns a FileStream.
+- The FileStream should be closed after creating the file.
+- File.WriteAllText overwrites existing content.
+- File.AppendAllText adds content at the end of the file.
+- File.ReadAllLines reads file content line by line.
+- File.Copy copies one file to another path.
+- File.Move moves or renames a file.
+- File.Delete removes a file.
+- Always check file existence before copy, move, or delete to avoid exceptions.
+- Hardcoded absolute paths work on one machine but relative paths are better for portability.
+
+Basic and Viva Questions with Answers:
+
+Q1. Which namespace is used for file operations?
+A. System.IO.
+
+Q2. What does File.Exists do?
+A. It checks whether a file exists at the given path.
+
+Q3. What does File.Create return?
+A. It returns a FileStream object.
+
+Q4. Why should FileStream be closed?
+A. Closing releases the file handle so other operations can access the file.
+
+Q5. Difference between WriteAllText and AppendAllText?
+A. WriteAllText overwrites the file content. AppendAllText adds new content at the end.
+
+Q6. What does ReadAllLines return?
+A. It returns a string array where each item is one line from the file.
+
+Q7. What is File.Copy used for?
+A. It copies a file from source path to destination path.
+
+Q8. What is File.Move used for?
+A. It moves a file to another location or renames it.
+
+Q9. What happens if destination file already exists during File.Copy?
+A. File.Copy throws an exception unless overwrite is enabled using an overload.
+
+Q10. Why does the code delete existing destination files before copy or move?
+A. To avoid exceptions caused by already existing destination files.
+
+Q11. What is the difference between File and FileInfo?
+A. File provides static methods. FileInfo represents a specific file object with instance methods and properties.
+
+Q12. What is a relative path?
+A. A relative path is based on the current working directory instead of the full drive path.

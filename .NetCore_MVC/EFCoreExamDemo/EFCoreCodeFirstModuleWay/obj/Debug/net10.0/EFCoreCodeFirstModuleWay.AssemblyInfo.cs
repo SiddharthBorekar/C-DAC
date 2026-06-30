@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EFCoreCodeFirstModuleWay")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5bc41f620dcac76a8ad4c80c3fbadc5e5db1eae5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+774c39cc5bb03a1d8353fb774595bfd3f827a0b0")]
 [assembly: System.Reflection.AssemblyProductAttribute("EFCoreCodeFirstModuleWay")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EFCoreCodeFirstModuleWay")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

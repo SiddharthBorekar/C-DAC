@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\C-DAC\\.NetCore_MVC\\EFCore\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7A68D6FA-803F-436A-AEE6-A77CFE32F83C}|EFCore\\EFCore.csproj|d:\\c-dac\\.netcore_mvc\\efcore\\efcore\\dal\\dbcon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A68D6FA-803F-436A-AEE6-A77CFE32F83C}|EFCore\\EFCore.csproj|solutionrelative:efcore\\dal\\dbcon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A68D6FA-803F-436A-AEE6-A77CFE32F83C}|EFCore\\EFCore.csproj|d:\\c-dac\\.netcore_mvc\\efcore\\efcore\\model\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A68D6FA-803F-436A-AEE6-A77CFE32F83C}|EFCore\\EFCore.csproj|solutionrelative:efcore\\model\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A68D6FA-803F-436A-AEE6-A77CFE32F83C}|EFCore\\EFCore.csproj|d:\\c-dac\\.netcore_mvc\\efcore\\efcore\\model\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A68D6FA-803F-436A-AEE6-A77CFE32F83C}|EFCore\\EFCore.csproj|solutionrelative:efcore\\model\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A68D6FA-803F-436A-AEE6-A77CFE32F83C}|EFCore\\EFCore.csproj|d:\\c-dac\\.netcore_mvc\\efcore\\efcore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A68D6FA-803F-436A-AEE6-A77CFE32F83C}|EFCore\\EFCore.csproj|solutionrelative:efcore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DbCon.cs",
+              "DocumentMoniker": "D:\\C-DAC\\.NetCore_MVC\\EFCore\\EFCore\\Dal\\DbCon.cs",
+              "RelativeDocumentMoniker": "EFCore\\Dal\\DbCon.cs",
+              "ToolTip": "D:\\C-DAC\\.NetCore_MVC\\EFCore\\EFCore\\Dal\\DbCon.cs",
+              "RelativeToolTip": "EFCore\\Dal\\DbCon.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-30T00:05:27.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Teacher.cs",
+              "DocumentMoniker": "D:\\C-DAC\\.NetCore_MVC\\EFCore\\EFCore\\Model\\Teacher.cs",
+              "RelativeDocumentMoniker": "EFCore\\Model\\Teacher.cs",
+              "ToolTip": "D:\\C-DAC\\.NetCore_MVC\\EFCore\\EFCore\\Model\\Teacher.cs",
+              "RelativeToolTip": "EFCore\\Model\\Teacher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T23:53:42.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Student.cs",
+              "DocumentMoniker": "D:\\C-DAC\\.NetCore_MVC\\EFCore\\EFCore\\Model\\Student.cs",
+              "RelativeDocumentMoniker": "EFCore\\Model\\Student.cs",
+              "ToolTip": "D:\\C-DAC\\.NetCore_MVC\\EFCore\\EFCore\\Model\\Student.cs",
+              "RelativeToolTip": "EFCore\\Model\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T23:53:31.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\C-DAC\\.NetCore_MVC\\EFCore\\EFCore\\Program.cs",
+              "RelativeDocumentMoniker": "EFCore\\Program.cs",
+              "ToolTip": "D:\\C-DAC\\.NetCore_MVC\\EFCore\\EFCore\\Program.cs",
+              "RelativeToolTip": "EFCore\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T23:51:43.626Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

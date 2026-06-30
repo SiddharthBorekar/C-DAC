@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\CDAC\\Adventure\\.NET_ASP\\EFCoreExamDemo\\EFCoreCodeFirstModuleWay\\EFCoreCodeFirstModuleWay.csproj": {}
+    "D:\\C-DAC\\.NetCore_MVC\\EFCoreExamDemo\\EFCoreCodeFirstModuleWay\\EFCoreCodeFirstModuleWay.csproj": {}
   },
   "projects": {
-    "D:\\CDAC\\Adventure\\.NET_ASP\\EFCoreExamDemo\\EFCoreCodeFirstModuleWay\\EFCoreCodeFirstModuleWay.csproj": {
+    "D:\\C-DAC\\.NetCore_MVC\\EFCoreExamDemo\\EFCoreCodeFirstModuleWay\\EFCoreCodeFirstModuleWay.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\CDAC\\Adventure\\.NET_ASP\\EFCoreExamDemo\\EFCoreCodeFirstModuleWay\\EFCoreCodeFirstModuleWay.csproj",
+        "projectUniqueName": "D:\\C-DAC\\.NetCore_MVC\\EFCoreExamDemo\\EFCoreCodeFirstModuleWay\\EFCoreCodeFirstModuleWay.csproj",
         "projectName": "EFCoreCodeFirstModuleWay",
-        "projectPath": "D:\\CDAC\\Adventure\\.NET_ASP\\EFCoreExamDemo\\EFCoreCodeFirstModuleWay\\EFCoreCodeFirstModuleWay.csproj",
-        "packagesPath": "C:\\Users\\saisagar\\.nuget\\packages\\",
-        "outputPath": "D:\\CDAC\\Adventure\\.NET_ASP\\EFCoreExamDemo\\EFCoreCodeFirstModuleWay\\obj\\",
+        "projectPath": "D:\\C-DAC\\.NetCore_MVC\\EFCoreExamDemo\\EFCoreCodeFirstModuleWay\\EFCoreCodeFirstModuleWay.csproj",
+        "packagesPath": "C:\\Users\\adity\\.nuget\\packages\\",
+        "outputPath": "D:\\C-DAC\\.NetCore_MVC\\EFCoreExamDemo\\EFCoreCodeFirstModuleWay\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\saisagar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\adity\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

@@ -1,7 +1,28 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\CDAC\\Adventure\\.NET_ASP\\EFCoreExamDemo\\",
-  "Documents": [],
+  "WorkspaceRootPath": "D:\\C-DAC\\.NetCore_MVC\\EFCoreExamDemo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AE2CDBBF-4837-F1C7-2208-CFE19ECFF506}|EFCoreCodeFirstModuleWay\\EFCoreCodeFirstModuleWay.csproj|d:\\c-dac\\.netcore_mvc\\efcoreexamdemo\\efcorecodefirstmoduleway\\dal\\dbcon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE2CDBBF-4837-F1C7-2208-CFE19ECFF506}|EFCoreCodeFirstModuleWay\\EFCoreCodeFirstModuleWay.csproj|solutionrelative:efcorecodefirstmoduleway\\dal\\dbcon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE2CDBBF-4837-F1C7-2208-CFE19ECFF506}|EFCoreCodeFirstModuleWay\\EFCoreCodeFirstModuleWay.csproj|d:\\c-dac\\.netcore_mvc\\efcoreexamdemo\\efcorecodefirstmoduleway\\model\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE2CDBBF-4837-F1C7-2208-CFE19ECFF506}|EFCoreCodeFirstModuleWay\\EFCoreCodeFirstModuleWay.csproj|solutionrelative:efcorecodefirstmoduleway\\model\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE2CDBBF-4837-F1C7-2208-CFE19ECFF506}|EFCoreCodeFirstModuleWay\\EFCoreCodeFirstModuleWay.csproj|d:\\c-dac\\.netcore_mvc\\efcoreexamdemo\\efcorecodefirstmoduleway\\model\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE2CDBBF-4837-F1C7-2208-CFE19ECFF506}|EFCoreCodeFirstModuleWay\\EFCoreCodeFirstModuleWay.csproj|solutionrelative:efcorecodefirstmoduleway\\model\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE2CDBBF-4837-F1C7-2208-CFE19ECFF506}|EFCoreCodeFirstModuleWay\\EFCoreCodeFirstModuleWay.csproj|d:\\c-dac\\.netcore_mvc\\efcoreexamdemo\\efcorecodefirstmoduleway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE2CDBBF-4837-F1C7-2208-CFE19ECFF506}|EFCoreCodeFirstModuleWay\\EFCoreCodeFirstModuleWay.csproj|solutionrelative:efcorecodefirstmoduleway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE2CDBBF-4837-F1C7-2208-CFE19ECFF506}|EFCoreCodeFirstModuleWay\\EFCoreCodeFirstModuleWay.csproj|d:\\c-dac\\.netcore_mvc\\efcoreexamdemo\\efcorecodefirstmoduleway\\migrations\\20260629231249_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE2CDBBF-4837-F1C7-2208-CFE19ECFF506}|EFCoreCodeFirstModuleWay\\EFCoreCodeFirstModuleWay.csproj|solutionrelative:efcorecodefirstmoduleway\\migrations\\20260629231249_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +30,74 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\C-DAC\\.NetCore_MVC\\EFCoreExamDemo\\EFCoreCodeFirstModuleWay\\Program.cs",
+              "RelativeDocumentMoniker": "EFCoreCodeFirstModuleWay\\Program.cs",
+              "ToolTip": "D:\\C-DAC\\.NetCore_MVC\\EFCoreExamDemo\\EFCoreCodeFirstModuleWay\\Program.cs",
+              "RelativeToolTip": "EFCoreCodeFirstModuleWay\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T23:11:14.172Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "20260629231249_init.cs",
+              "DocumentMoniker": "D:\\C-DAC\\.NetCore_MVC\\EFCoreExamDemo\\EFCoreCodeFirstModuleWay\\Migrations\\20260629231249_init.cs",
+              "RelativeDocumentMoniker": "EFCoreCodeFirstModuleWay\\Migrations\\20260629231249_init.cs",
+              "ToolTip": "D:\\C-DAC\\.NetCore_MVC\\EFCoreExamDemo\\EFCoreCodeFirstModuleWay\\Migrations\\20260629231249_init.cs",
+              "RelativeToolTip": "EFCoreCodeFirstModuleWay\\Migrations\\20260629231249_init.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T23:12:50.058Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DBCon.cs",
+              "DocumentMoniker": "D:\\C-DAC\\.NetCore_MVC\\EFCoreExamDemo\\EFCoreCodeFirstModuleWay\\Dal\\DBCon.cs",
+              "RelativeDocumentMoniker": "EFCoreCodeFirstModuleWay\\Dal\\DBCon.cs",
+              "ToolTip": "D:\\C-DAC\\.NetCore_MVC\\EFCoreExamDemo\\EFCoreCodeFirstModuleWay\\Dal\\DBCon.cs",
+              "RelativeToolTip": "EFCoreCodeFirstModuleWay\\Dal\\DBCon.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T23:12:02.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Department.cs",
+              "DocumentMoniker": "D:\\C-DAC\\.NetCore_MVC\\EFCoreExamDemo\\EFCoreCodeFirstModuleWay\\Model\\Department.cs",
+              "RelativeDocumentMoniker": "EFCoreCodeFirstModuleWay\\Model\\Department.cs",
+              "ToolTip": "D:\\C-DAC\\.NetCore_MVC\\EFCoreExamDemo\\EFCoreCodeFirstModuleWay\\Model\\Department.cs",
+              "RelativeToolTip": "EFCoreCodeFirstModuleWay\\Model\\Department.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T23:09:44.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "D:\\C-DAC\\.NetCore_MVC\\EFCoreExamDemo\\EFCoreCodeFirstModuleWay\\Model\\Employee.cs",
+              "RelativeDocumentMoniker": "EFCoreCodeFirstModuleWay\\Model\\Employee.cs",
+              "ToolTip": "D:\\C-DAC\\.NetCore_MVC\\EFCoreExamDemo\\EFCoreCodeFirstModuleWay\\Model\\Employee.cs",
+              "RelativeToolTip": "EFCoreCodeFirstModuleWay\\Model\\Employee.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA5wAsAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T23:05:12.855Z",
+              "EditorCaption": ""
             }
           ]
         }
