@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\C-DAC\\.NetCore_MVC\\One8\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E578E832-C817-83C5-804A-A25A2A9AD65F}|One8\\One8.csproj|d:\\c-dac\\.netcore_mvc\\one8\\one8\\models\\virat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E578E832-C817-83C5-804A-A25A2A9AD65F}|One8\\One8.csproj|solutionrelative:one8\\models\\virat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E578E832-C817-83C5-804A-A25A2A9AD65F}|One8\\One8.csproj|d:\\c-dac\\.netcore_mvc\\one8\\one8\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E578E832-C817-83C5-804A-A25A2A9AD65F}|One8\\One8.csproj|solutionrelative:one8\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -38,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,7 +50,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "virat.cs",
+              "DocumentMoniker": "D:\\C-DAC\\.NetCore_MVC\\One8\\One8\\Models\\virat.cs",
+              "RelativeDocumentMoniker": "One8\\Models\\virat.cs",
+              "ToolTip": "D:\\C-DAC\\.NetCore_MVC\\One8\\One8\\Models\\virat.cs",
+              "RelativeToolTip": "One8\\Models\\virat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-02T18:16:51.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "_Layout.cshtml.css",
               "DocumentMoniker": "D:\\C-DAC\\.NetCore_MVC\\One8\\One8\\Views\\Shared\\_Layout.cshtml.css",
               "RelativeDocumentMoniker": "One8\\Views\\Shared\\_Layout.cshtml.css",
@@ -54,12 +71,11 @@
               "RelativeToolTip": "One8\\Views\\Shared\\_Layout.cshtml.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-06-26T13:33:29.665Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-26T13:33:29.665Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Product.cs",
               "DocumentMoniker": "D:\\C-DAC\\.NetCore_MVC\\One8\\One8\\Models\\Product.cs",
               "RelativeDocumentMoniker": "One8\\Models\\Product.cs",
@@ -71,12 +87,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\C-DAC\\.NetCore_MVC\\One8\\One8\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "One8\\Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\C-DAC\\.NetCore_MVC\\One8\\One8\\Views\\Home\\Index.cshtml*",
-              "RelativeToolTip": "One8\\Views\\Home\\Index.cshtml*",
+              "ToolTip": "D:\\C-DAC\\.NetCore_MVC\\One8\\One8\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "One8\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAACYAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-06-26T04:28:41.841Z",
@@ -84,7 +100,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "FeaturedController1.cs",
               "DocumentMoniker": "D:\\C-DAC\\.NetCore_MVC\\One8\\One8\\Controllers\\FeaturedController1.cs",
               "RelativeDocumentMoniker": "One8\\Controllers\\FeaturedController1.cs",
@@ -96,20 +112,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\C-DAC\\.NetCore_MVC\\One8\\One8\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "One8\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\C-DAC\\.NetCore_MVC\\One8\\One8\\Views\\Shared\\_Layout.cshtml*",
-              "RelativeToolTip": "One8\\Views\\Shared\\_Layout.cshtml*",
+              "ToolTip": "D:\\C-DAC\\.NetCore_MVC\\One8\\One8\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "One8\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAADYAAAAAAAAAAAAAAEcAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-25T08:46:39.759Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-25T08:46:39.759Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "D:\\C-DAC\\.NetCore_MVC\\One8\\One8\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "One8\\Models\\ErrorViewModel.cs",
@@ -121,7 +136,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\C-DAC\\.NetCore_MVC\\One8\\One8\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "One8\\Controllers\\HomeController.cs",
@@ -129,8 +144,7 @@
               "RelativeToolTip": "One8\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-25T08:43:45.759Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-25T08:43:45.759Z"
             }
           ]
         }
