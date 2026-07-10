@@ -37,5 +37,4 @@ public class Customer {
 		super();
 		// TODO Auto-generated constructor stub
 	}
-
 }

@@ -14,7 +14,5 @@ public class Employee {
 	private String email;
 	private int age ;
 	private boolean gender;
-
-	
 	
 }

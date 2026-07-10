@@ -22,7 +22,6 @@ public class WebLocators {
 	}
 }
 
-
 //Full xpath   /html/body/div[2]/div[6]/form/div[1]/div/div[4]/center/input[1]
 
 //Xpath        /html/body/div[2]/div[6]/form/div[1]/div/div[4]/center/input[1]

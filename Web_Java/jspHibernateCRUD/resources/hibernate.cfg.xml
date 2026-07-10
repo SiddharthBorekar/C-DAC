@@ -1,0 +1,11 @@
+<hibernate-configration>
+<session-factory>
+<property name = "hbm2ddl.auto">UPDATE</property>
+<property name = "connection url">jdbc:mysql://localhost:3306/hibernate</property>
+<property name = "connection.username">root</property>
+<property name = "connection.password">@Joker123</property>
+<property name = "driver_class">com.mysql.cj.jdbc.driver</property>
+<property name = "Show_sql">true</property>
+<property name = "dialet">org.hibernate.dialet.MYSQLDialet</property>
+</session-factory>
+</hibernate-configration>
