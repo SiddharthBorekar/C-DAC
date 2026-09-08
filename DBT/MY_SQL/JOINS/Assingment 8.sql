@@ -10,11 +10,10 @@ select s.namefirst,namelast,emailid ,sq.college,university from student s join s
 -- 4. Display all student details his phone details and his qualification details. (Use student, student_phone and student_qualification relation)
  select s.* ,sp.* , sq.* from student s join student_phone sp join student_qualifications sq on s.id = sp.studentid = sq.studentid;
 
+
 -- 5.Display (studentID, namefirst, namelast, name, college, university, and marks) whose name is ‘BE’.(Use student, and student_qualification relation)
 select s.ID,namefirst,namelast,name,college,university from student s join student_qualifications sq on s.id = sq.studentid;
 
 -- 6. Display the module name and the duration of the module for the batch “Batch1”.
 
-
 -- 7. Display student information along with his batch details who have joined in “Batch1”.
-
