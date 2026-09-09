@@ -10,6 +10,8 @@ BEGIN
 end $
 delimiter ;
 
+
+
 -- •	Create a new table called STUDENT_NEW having following columns (studentID, namefirst, namelast, DOB, and emailID). Write a function names autoNumberto return auto generate studentID and return the new value (Use: STUDENT_NEW table).
 drop function if EXISTS AutoNumber ;
 delimiter $
