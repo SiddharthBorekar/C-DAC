@@ -13,6 +13,7 @@ select namefirst, namelast ,lower(namefirst) R1, lower(namelast) R2 from student
 -- 5.	Get (namefirst, namelast, and emailID) all 7 letter emailID.
  select namefirst, namelast , emailID , substr(emailID,1,7) R1 from student;
 
+
 -- 6.	Get(namefirst, namelast and first 3 letters of namefirst) for all students.
 select namefirst, namelast ,substr(namefirst,1,3)R2 from student ;
 
