@@ -103,7 +103,7 @@ select * from student where day(DOB) between 10 and 19;
 select floor(1 + rand() * 100);
 
 -- 35.	Display the 5 character of namefirst column from student table.
-select namefirst ,left(namefirst,5) R1 from student;table 
+select namefirst ,left(namefirst,5) R1 from student;
 
 -- 36.	Display all student in ascending order of their DOB, the ordering must be done on weekday name starting form
 -- First Time: ‘Monday’, ‘Tuesday’…… ‘Sunday’
