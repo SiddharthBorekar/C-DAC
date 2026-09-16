@@ -16,3 +16,4 @@ select s.ID,namefirst,namelast,name,college,university from student s join stude
 -- 6. Display the module name and the duration of the module for the batch “Batch1”.
 
 -- 7. Display student information along with his batch details who have joined in “Batch1”.
+
